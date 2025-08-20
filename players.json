@@ -1,0 +1,1684 @@
+[
+    {
+        "id": 1,
+        "name": "Rafael Henrique Moreira",
+        "short_name": "R. Moreira",
+        "shirt_name": "R. Moreira",
+        "nationality": "Brazil",
+        "birth": "1997-04-10",
+        "age": 28,
+        "height": 189,
+        "weight": 86,
+        "shirt_number": 1,
+        "position": "GK",
+        "foot": "Right",
+        "club": "Recife FC",
+        "atributes": {
+        "fisical": {
+            "velocity": 40,
+            "acceleration": 38,
+            "strength": 82,
+            "stamina": 70,
+            "impulse": 85,
+            "balance": 72
+        },
+        "technique": {
+            "positioning": 80,
+            "finishing": 10,
+            "long_shot": 12,
+            "heading": 25,
+            "dribbling": 30,
+            "crossing": 20,
+            "long_pass": 68,
+            "short_pass": 60,
+            "ball_control": 50,
+            "curve": 10,
+            "tackling": 20,
+            "interceptions": 30,
+            "marking": 35,
+            "sliding_tackle": 18,
+            "pressure": 50,
+            "reflexes": 88,
+            "placing": 82,
+            "goalkeeping": 90
+        },
+        "mental": {
+            "vision": 48,
+            "composition": 72,
+            "decision": 78,
+            "lider": 75,
+            "agression": 45,
+            "concentration": 88,
+            "composure": 80
+        }
+        },
+        "traits": [
+        "Command of Area",
+        "Penalty Saver",
+        "Quick Refexes"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Recife FC",
+            "appearances": 34,
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 2,
+            "red_cards": 0,
+            "rating": 7.1
+        }
+        ],
+        "media": {
+        "reputation": 72,
+        "popularity": 68,
+        "charisma": 60,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 2,
+        "name": "João Pedro Silva",
+        "short_name": "J. Pedro",
+        "shirt_name": "J. Pedro",
+        "nationality": "Brazil",
+        "birth": "2000-09-02",
+        "age": 24,
+        "height": 178,
+        "weight": 74,
+        "shirt_number": 2,
+        "position": "RB",
+        "foot": "Right",
+        "club": "Recife FC",
+        "atributes": {
+        "fisical": {
+            "velocity": 84,
+            "acceleration": 82,
+            "strength": 72,
+            "stamina": 85,
+            "impulse": 70,
+            "balance": 78
+        },
+        "technique": {
+            "positioning": 74,
+            "finishing": 55,
+            "long_shot": 48,
+            "heading": 62,
+            "dribbling": 76,
+            "crossing": 80,
+            "long_pass": 68,
+            "short_pass": 75,
+            "ball_control": 78,
+            "curve": 50,
+            "tackling": 72,
+            "interceptions": 70,
+            "marking": 72,
+            "sliding_tackle": 68,
+            "pressure": 74,
+            "reflexes": 20,
+            "placing": 10,
+            "goalkeeping": 8
+        },
+        "mental": {
+            "vision": 70,
+            "composition": 72,
+            "decision": 74,
+            "lider": 55,
+            "agression": 68,
+            "concentration": 72,
+            "composure": 73
+        }
+        },
+        "traits": [
+        "Overlapping Runs",
+        "Accurate Crosser"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Recife FC",
+            "appearances": 32,
+            "goals": 4,
+            "assists": 8,
+            "yellow_cards": 5,
+            "red_cards": 0,
+            "rating": 7.0
+        }
+        ],
+        "media": {
+        "reputation": 60,
+        "popularity": 64,
+        "charisma": 55,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 3,
+        "name": "Gustavo Oliveira Ramos",
+        "short_name": "G. Ramos",
+        "shirt_name": "G. Ramos",
+        "nationality": "Brazil",
+        "birth": "1995-01-20",
+        "age": 30,
+        "height": 187,
+        "weight": 82,
+        "shirt_number": 3,
+        "position": "CB",
+        "foot": "Left",
+        "club": "Recife FC",
+        "atributes": {
+        "fisical": {
+            "velocity": 66,
+            "acceleration": 60,
+            "strength": 86,
+            "stamina": 76,
+            "impulse": 70,
+            "balance": 75
+        },
+        "technique": {
+            "positioning": 86,
+            "finishing": 30,
+            "long_shot": 35,
+            "heading": 88,
+            "dribbling": 52,
+            "crossing": 30,
+            "long_pass": 72,
+            "short_pass": 74,
+            "ball_control": 62,
+            "curve": 18,
+            "tackling": 84,
+            "interceptions": 86,
+            "marking": 88,
+            "sliding_tackle": 80,
+            "pressure": 78,
+            "reflexes": 20,
+            "placing": 10,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 60,
+            "composition": 82,
+            "decision": 84,
+            "lider": 80,
+            "agression": 70,
+            "concentration": 88,
+            "composure": 82
+        }
+        },
+        "traits": [
+        "Aerial Threat",
+        "Tactical Defender",
+        "Captain Material"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Recife FC",
+            "appearances": 36,
+            "goals": 3,
+            "assists": 1,
+            "yellow_cards": 6,
+            "red_cards": 1,
+            "rating": 7.3
+        }
+        ],
+        "media": {
+        "reputation": 75,
+        "popularity": 70,
+        "charisma": 65,
+        "controversies": 1
+        }
+    },
+    {
+        "id": 4,
+        "name": "Pedro Lucas Ferreira",
+        "short_name": "P. Ferreira",
+        "shirt_name": "P. Ferreira",
+        "nationality": "Brazil",
+        "birth": "2001-07-15",
+        "age": 24,
+        "height": 184,
+        "weight": 79,
+        "shirt_number": 4,
+        "position": "CB",
+        "foot": "Right",
+        "club": "Recife FC",
+        "atributes": {
+        "fisical": {
+            "velocity": 72,
+            "acceleration": 70,
+            "strength": 78,
+            "stamina": 78,
+            "impulse": 74,
+            "balance": 74
+        },
+        "technique": {
+            "positioning": 78,
+            "finishing": 35,
+            "long_shot": 38,
+            "heading": 80,
+            "dribbling": 58,
+            "crossing": 35,
+            "long_pass": 70,
+            "short_pass": 76,
+            "ball_control": 68,
+            "curve": 20,
+            "tackling": 78,
+            "interceptions": 80,
+            "marking": 80,
+            "sliding_tackle": 75,
+            "pressure": 76,
+            "reflexes": 18,
+            "placing": 12,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 64,
+            "composition": 76,
+            "decision": 78,
+            "lider": 62,
+            "agression": 68,
+            "concentration": 80,
+            "composure": 76
+        }
+        },
+        "traits": [
+        "Ball Playing Defender",
+        "Strong in Duels"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Recife FC",
+            "appearances": 30,
+            "goals": 2,
+            "assists": 3,
+            "yellow_cards": 4,
+            "red_cards": 0,
+            "rating": 7.0
+        }
+        ],
+        "media": {
+        "reputation": 66,
+        "popularity": 60,
+        "charisma": 55,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 5,
+        "name": "Matheus Vinícius Santos",
+        "short_name": "M. Santos",
+        "shirt_name": "M. Santos",
+        "nationality": "Brazil",
+        "birth": "2002-11-03",
+        "age": 22,
+        "height": 170,
+        "weight": 68,
+        "shirt_number": 5,
+        "position": "LB",
+        "foot": "Left",
+        "club": "Recife FC",
+        "atributes": {
+        "fisical": {
+            "velocity": 86,
+            "acceleration": 84,
+            "strength": 66,
+            "stamina": 86,
+            "impulse": 68,
+            "balance": 80
+        },
+        "technique": {
+            "positioning": 72,
+            "finishing": 60,
+            "long_shot": 50,
+            "heading": 50,
+            "dribbling": 82,
+            "crossing": 84,
+            "long_pass": 66,
+            "short_pass": 74,
+            "ball_control": 80,
+            "curve": 56,
+            "tackling": 70,
+            "interceptions": 68,
+            "marking": 66,
+            "sliding_tackle": 64,
+            "pressure": 72,
+            "reflexes": 18,
+            "placing": 10,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 68,
+            "composition": 70,
+            "decision": 72,
+            "lider": 48,
+            "agression": 60,
+            "concentration": 70,
+            "composure": 72
+        }
+        },
+        "traits": [
+        "Wing-Back",
+        "Dribbler"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Recife FC",
+            "appearances": 33,
+            "goals": 3,
+            "assists": 9,
+            "yellow_cards": 3,
+            "red_cards": 0,
+            "rating": 7.2
+        }
+        ],
+        "media": {
+        "reputation": 58,
+        "popularity": 62,
+        "charisma": 58,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 6,
+        "name": "Lucas Almeida Neto",
+        "short_name": "L. Almeida",
+        "shirt_name": "L. Almeida",
+        "nationality": "Brazil",
+        "birth": "1999-03-28",
+        "age": 26,
+        "height": 181,
+        "weight": 75,
+        "shirt_number": 6,
+        "position": "CM",
+        "foot": "Right",
+        "club": "Recife FC",
+        "atributes": {
+        "fisical": {
+            "velocity": 74,
+            "acceleration": 70,
+            "strength": 74,
+            "stamina": 86,
+            "impulse": 72,
+            "balance": 76
+        },
+        "technique": {
+            "positioning": 78,
+            "finishing": 66,
+            "long_shot": 72,
+            "heading": 60,
+            "dribbling": 74,
+            "crossing": 68,
+            "long_pass": 78,
+            "short_pass": 82,
+            "ball_control": 80,
+            "curve": 60,
+            "tackling": 68,
+            "interceptions": 70,
+            "marking": 66,
+            "sliding_tackle": 64,
+            "pressure": 76,
+            "reflexes": 20,
+            "placing": 20,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 82,
+            "composition": 78,
+            "decision": 80,
+            "lider": 66,
+            "agression": 60,
+            "concentration": 78,
+            "composure": 78
+        }
+        },
+        "traits": [
+        "Playmaker",
+        "Long Shot Taker",
+        "Box-to-Box"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Recife FC",
+            "appearances": 35,
+            "goals": 8,
+            "assists": 11,
+            "yellow_cards": 5,
+            "red_cards": 0,
+            "rating": 7.5
+        }
+        ],
+        "media": {
+        "reputation": 70,
+        "popularity": 68,
+        "charisma": 60,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 7,
+        "name": "Diego Ramos Costa",
+        "short_name": "D. Costa",
+        "shirt_name": "D. Costa",
+        "nationality": "Brazil",
+        "birth": "2003-02-12",
+        "age": 22,
+        "height": 176,
+        "weight": 70,
+        "shirt_number": 7,
+        "position": "RM",
+        "foot": "Right",
+        "club": "Recife FC",
+        "atributes": {
+        "fisical": {
+            "velocity": 88,
+            "acceleration": 90,
+            "strength": 66,
+            "stamina": 84,
+            "impulse": 72,
+            "balance": 78
+        },
+        "technique": {
+            "positioning": 72,
+            "finishing": 70,
+            "long_shot": 58,
+            "heading": 48,
+            "dribbling": 88,
+            "crossing": 82,
+            "long_pass": 64,
+            "short_pass": 76,
+            "ball_control": 86,
+            "curve": 62,
+            "tackling": 60,
+            "interceptions": 54,
+            "marking": 56,
+            "sliding_tackle": 50,
+            "pressure": 72,
+            "reflexes": 20,
+            "placing": 15,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 74,
+            "composition": 70,
+            "decision": 72,
+            "lider": 40,
+            "agression": 58,
+            "concentration": 70,
+            "composure": 70
+        }
+        },
+        "traits": [
+        "Speedster",
+        "Cut Inside"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Recife FC",
+            "appearances": 30,
+            "goals": 10,
+            "assists": 7,
+            "yellow_cards": 3,
+            "red_cards": 0,
+            "rating": 7.1
+        }
+        ],
+        "media": {
+        "reputation": 62,
+        "popularity": 70,
+        "charisma": 66,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 8,
+        "name": "Vitor Hugo Cardoso",
+        "short_name": "V. Cardoso",
+        "shirt_name": "V. Cardoso",
+        "nationality": "Brazil",
+        "birth": "1998-12-05",
+        "age": 26,
+        "height": 179,
+        "weight": 76,
+        "shirt_number": 8,
+        "position": "CM",
+        "foot": "Right",
+        "club": "Recife FC",
+        "atributes": {
+        "fisical": {
+            "velocity": 72,
+            "acceleration": 70,
+            "strength": 76,
+            "stamina": 88,
+            "impulse": 70,
+            "balance": 75
+        },
+        "technique": {
+            "positioning": 76,
+            "finishing": 62,
+            "long_shot": 68,
+            "heading": 62,
+            "dribbling": 74,
+            "crossing": 60,
+            "long_pass": 76,
+            "short_pass": 82,
+            "ball_control": 80,
+            "curve": 55,
+            "tackling": 74,
+            "interceptions": 76,
+            "marking": 70,
+            "sliding_tackle": 72,
+            "pressure": 78,
+            "reflexes": 20,
+            "placing": 18,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 80,
+            "composition": 78,
+            "decision": 79,
+            "lider": 68,
+            "agression": 66,
+            "concentration": 80,
+            "composure": 78
+        }
+        },
+        "traits": [
+        "Engine",
+        "Box-to-Box",
+        "Accurate Passer"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Recife FC",
+            "appearances": 36,
+            "goals": 6,
+            "assists": 9,
+            "yellow_cards": 6,
+            "red_cards": 0,
+            "rating": 7.4
+        }
+        ],
+        "media": {
+        "reputation": 68,
+        "popularity": 65,
+        "charisma": 60,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 9,
+        "name": "Ramon Felipe Araújo",
+        "short_name": "R. Araújo",
+        "shirt_name": "R. Araújo",
+        "nationality": "Brazil",
+        "birth": "2001-05-21",
+        "age": 24,
+        "height": 175,
+        "weight": 71,
+        "shirt_number": 9,
+        "position": "ST",
+        "foot": "Right",
+        "club": "Recife FC",
+        "atributes": {
+        "fisical": {
+            "velocity": 86,
+            "acceleration": 84,
+            "strength": 78,
+            "stamina": 76,
+            "impulse": 82,
+            "balance": 74
+        },
+        "technique": {
+            "positioning": 84,
+            "finishing": 88,
+            "long_shot": 78,
+            "heading": 72,
+            "dribbling": 80,
+            "crossing": 48,
+            "long_pass": 60,
+            "short_pass": 70,
+            "ball_control": 82,
+            "curve": 60,
+            "tackling": 40,
+            "interceptions": 40,
+            "marking": 48,
+            "sliding_tackle": 30,
+            "pressure": 78,
+            "reflexes": 20,
+            "placing": 82,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 70,
+            "composition": 76,
+            "decision": 78,
+            "lider": 60,
+            "agression": 74,
+            "concentration": 80,
+            "composure": 82
+        }
+        },
+        "traits": [
+        "Poacher",
+        "Clinical Finisher",
+        "Off the Ball"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Recife FC",
+            "appearances": 34,
+            "goals": 22,
+            "assists": 6,
+            "yellow_cards": 3,
+            "red_cards": 0,
+            "rating": 7.8
+        }
+        ],
+        "media": {
+        "reputation": 78,
+        "popularity": 80,
+        "charisma": 70,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 10,
+        "name": "André Luiz Maranhão",
+        "short_name": "A. Maranhão",
+        "shirt_name": "A. Maranhão",
+        "nationality": "Brazil",
+        "birth": "2000-08-18",
+        "age": 24,
+        "height": 183,
+        "weight": 79,
+        "shirt_number": 10,
+        "position": "ST",
+        "foot": "Left",
+        "club": "Recife FC",
+        "atributes": {
+        "fisical": {
+            "velocity": 78,
+            "acceleration": 76,
+            "strength": 80,
+            "stamina": 78,
+            "impulse": 80,
+            "balance": 76
+        },
+        "technique": {
+            "positioning": 82,
+            "finishing": 84,
+            "long_shot": 76,
+            "heading": 80,
+            "dribbling": 78,
+            "crossing": 50,
+            "long_pass": 62,
+            "short_pass": 74,
+            "ball_control": 80,
+            "curve": 64,
+            "tackling": 42,
+            "interceptions": 38,
+            "marking": 48,
+            "sliding_tackle": 32,
+            "pressure": 76,
+            "reflexes": 20,
+            "placing": 80,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 70,
+            "composition": 74,
+            "decision": 76,
+            "lider": 66,
+            "agression": 72,
+            "concentration": 78,
+            "composure": 80
+        }
+        },
+        "traits": [
+        "Target Man",
+        "Hold-Up Play",
+        "Penalty Taker"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Recife FC",
+            "appearances": 32,
+            "goals": 16,
+            "assists": 8,
+            "yellow_cards": 4,
+            "red_cards": 0,
+            "rating": 7.3
+        }
+        ],
+        "media": {
+        "reputation": 74,
+        "popularity": 70,
+        "charisma": 62,
+        "controversies": 1
+        }
+    },
+
+    {
+        "id": 11,
+        "name": "Felipe Gomes Rocha",
+        "short_name": "F. Rocha",
+        "shirt_name": "F. Rocha",
+        "nationality": "Brazil",
+        "birth": "1996-06-30",
+        "age": 29,
+        "height": 190,
+        "weight": 88,
+        "shirt_number": 1,
+        "position": "GK",
+        "foot": "Right",
+        "club": "Cruz Santa",
+        "atributes": {
+        "fisical": {
+            "velocity": 38,
+            "acceleration": 36,
+            "strength": 88,
+            "stamina": 68,
+            "impulse": 86,
+            "balance": 70
+        },
+        "technique": {
+            "positioning": 84,
+            "finishing": 8,
+            "long_shot": 10,
+            "heading": 22,
+            "dribbling": 30,
+            "crossing": 18,
+            "long_pass": 70,
+            "short_pass": 62,
+            "ball_control": 48,
+            "curve": 10,
+            "tackling": 18,
+            "interceptions": 28,
+            "marking": 30,
+            "sliding_tackle": 16,
+            "pressure": 50,
+            "reflexes": 86,
+            "placing": 80,
+            "goalkeeping": 88
+        },
+        "mental": {
+            "vision": 46,
+            "composition": 70,
+            "decision": 80,
+            "lider": 78,
+            "agression": 48,
+            "concentration": 86,
+            "composure": 80
+        }
+        },
+        "traits": [
+        "Great Reflexes",
+        "Aerial Commander"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Cruz Santa",
+            "appearances": 34,
+            "goals": 0,
+            "assists": 0,
+            "yellow_cards": 1,
+            "red_cards": 0,
+            "rating": 7.2
+        }
+        ],
+        "media": {
+        "reputation": 70,
+        "popularity": 66,
+        "charisma": 60,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 12,
+        "name": "Bruno Henrique Leite",
+        "short_name": "B. Leite",
+        "shirt_name": "B. Leite",
+        "nationality": "Brazil",
+        "birth": "2000-10-11",
+        "age": 24,
+        "height": 176,
+        "weight": 74,
+        "shirt_number": 2,
+        "position": "RB",
+        "foot": "Right",
+        "club": "Cruz Santa",
+        "atributes": {
+        "fisical": {
+            "velocity": 82,
+            "acceleration": 80,
+            "strength": 72,
+            "stamina": 84,
+            "impulse": 70,
+            "balance": 76
+        },
+        "technique": {
+            "positioning": 74,
+            "finishing": 60,
+            "long_shot": 50,
+            "heading": 60,
+            "dribbling": 78,
+            "crossing": 80,
+            "long_pass": 66,
+            "short_pass": 74,
+            "ball_control": 76,
+            "curve": 56,
+            "tackling": 74,
+            "interceptions": 70,
+            "marking": 70,
+            "sliding_tackle": 68,
+            "pressure": 74,
+            "reflexes": 20,
+            "placing": 12,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 68,
+            "composition": 70,
+            "decision": 72,
+            "lider": 52,
+            "agression": 66,
+            "concentration": 72,
+            "composure": 72
+        }
+        },
+        "traits": [
+        "Reliable",
+        "Set Piece Runner"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Cruz Santa",
+            "appearances": 33,
+            "goals": 2,
+            "assists": 6,
+            "yellow_cards": 3,
+            "red_cards": 0,
+            "rating": 7.0
+        }
+        ],
+        "media": {
+        "reputation": 60,
+        "popularity": 58,
+        "charisma": 55,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 13,
+        "name": "Carlos Eduardo Pinto",
+        "short_name": "C. Pinto",
+        "shirt_name": "C. Pinto",
+        "nationality": "Brazil",
+        "birth": "1994-09-14",
+        "age": 30,
+        "height": 188,
+        "weight": 85,
+        "shirt_number": 3,
+        "position": "CB",
+        "foot": "Right",
+        "club": "Cruz Santa",
+        "atributes": {
+        "fisical": {
+            "velocity": 64,
+            "acceleration": 60,
+            "strength": 88,
+            "stamina": 74,
+            "impulse": 78,
+            "balance": 74
+        },
+        "technique": {
+            "positioning": 88,
+            "finishing": 28,
+            "long_shot": 30,
+            "heading": 90,
+            "dribbling": 50,
+            "crossing": 22,
+            "long_pass": 68,
+            "short_pass": 70,
+            "ball_control": 60,
+            "curve": 10,
+            "tackling": 86,
+            "interceptions": 88,
+            "marking": 90,
+            "sliding_tackle": 82,
+            "pressure": 80,
+            "reflexes": 18,
+            "placing": 12,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 58,
+            "composition": 84,
+            "decision": 86,
+            "lider": 82,
+            "agression": 74,
+            "concentration": 88,
+            "composure": 84
+        }
+        },
+        "traits": [
+        "Rock at the Back",
+        "Aerial Dominance"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Cruz Santa",
+            "appearances": 38,
+            "goals": 4,
+            "assists": 0,
+            "yellow_cards": 7,
+            "red_cards": 1,
+            "rating": 7.4
+        }
+        ],
+        "media": {
+        "reputation": 76,
+        "popularity": 64,
+        "charisma": 60,
+        "controversies": 1
+        }
+    },
+    {
+        "id": 14,
+        "name": "Henrique Souza Moraes",
+        "short_name": "H. Moraes",
+        "shirt_name": "H. Moraes",
+        "nationality": "Brazil",
+        "birth": "2002-01-09",
+        "age": 23,
+        "height": 183,
+        "weight": 78,
+        "shirt_number": 4,
+        "position": "CB",
+        "foot": "Left",
+        "club": "Cruz Santa",
+        "atributes": {
+        "fisical": {
+            "velocity": 70,
+            "acceleration": 68,
+            "strength": 80,
+            "stamina": 76,
+            "impulse": 72,
+            "balance": 75
+        },
+        "technique": {
+            "positioning": 80,
+            "finishing": 30,
+            "long_shot": 36,
+            "heading": 82,
+            "dribbling": 56,
+            "crossing": 28,
+            "long_pass": 72,
+            "short_pass": 74,
+            "ball_control": 68,
+            "curve": 18,
+            "tackling": 80,
+            "interceptions": 78,
+            "marking": 80,
+            "sliding_tackle": 74,
+            "pressure": 76,
+            "reflexes": 18,
+            "placing": 12,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 62,
+            "composition": 78,
+            "decision": 78,
+            "lider": 60,
+            "agression": 70,
+            "concentration": 80,
+            "composure": 78
+        }
+        },
+        "traits": [
+        "Quick Reader",
+        "Aggressive Tackler"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Cruz Santa",
+            "appearances": 31,
+            "goals": 1,
+            "assists": 2,
+            "yellow_cards": 4,
+            "red_cards": 0,
+            "rating": 6.9
+        }
+        ],
+        "media": {
+        "reputation": 62,
+        "popularity": 58,
+        "charisma": 54,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 15,
+        "name": "Samuel Araújo Bento",
+        "short_name": "S. Bento",
+        "shirt_name": "S. Bento",
+        "nationality": "Brazil",
+        "birth": "1999-04-22",
+        "age": 26,
+        "height": 171,
+        "weight": 69,
+        "shirt_number": 5,
+        "position": "LB",
+        "foot": "Left",
+        "club": "Cruz Santa",
+        "atributes": {
+        "fisical": {
+            "velocity": 84,
+            "acceleration": 82,
+            "strength": 70,
+            "stamina": 86,
+            "impulse": 70,
+            "balance": 78
+        },
+        "technique": {
+            "positioning": 72,
+            "finishing": 62,
+            "long_shot": 54,
+            "heading": 48,
+            "dribbling": 82,
+            "crossing": 80,
+            "long_pass": 64,
+            "short_pass": 74,
+            "ball_control": 80,
+            "curve": 60,
+            "tackling": 72,
+            "interceptions": 70,
+            "marking": 68,
+            "sliding_tackle": 66,
+            "pressure": 74,
+            "reflexes": 20,
+            "placing": 12,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 70,
+            "composition": 72,
+            "decision": 72,
+            "lider": 50,
+            "agression": 64,
+            "concentration": 72,
+            "composure": 72
+        }
+        },
+        "traits": [
+        "Consistent",
+        "Dangerous Left Foot"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Cruz Santa",
+            "appearances": 34,
+            "goals": 4,
+            "assists": 6,
+            "yellow_cards": 3,
+            "red_cards": 0,
+            "rating": 7.0
+        }
+        ],
+        "media": {
+        "reputation": 60,
+        "popularity": 61,
+        "charisma": 56,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 16,
+        "name": "Rafael Costa Nogueira",
+        "short_name": "R. Nogueira",
+        "shirt_name": "R. Nogueira",
+        "nationality": "Brazil",
+        "birth": "1998-07-30",
+        "age": 27,
+        "height": 180,
+        "weight": 75,
+        "shirt_number": 6,
+        "position": "CM",
+        "foot": "Right",
+        "club": "Cruz Santa",
+        "atributes": {
+        "fisical": {
+            "velocity": 74,
+            "acceleration": 72,
+            "strength": 76,
+            "stamina": 86,
+            "impulse": 72,
+            "balance": 74
+        },
+        "technique": {
+            "positioning": 78,
+            "finishing": 68,
+            "long_shot": 74,
+            "heading": 60,
+            "dribbling": 76,
+            "crossing": 60,
+            "long_pass": 78,
+            "short_pass": 82,
+            "ball_control": 80,
+            "curve": 58,
+            "tackling": 70,
+            "interceptions": 72,
+            "marking": 68,
+            "sliding_tackle": 66,
+            "pressure": 76,
+            "reflexes": 20,
+            "placing": 18,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 80,
+            "composition": 78,
+            "decision": 80,
+            "lider": 68,
+            "agression": 66,
+            "concentration": 80,
+            "composure": 78
+        }
+        },
+        "traits": [
+        "Deep-Lying Playmaker",
+        "Set Piece Specialist"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Cruz Santa",
+            "appearances": 36,
+            "goals": 7,
+            "assists": 12,
+            "yellow_cards": 5,
+            "red_cards": 0,
+            "rating": 7.5
+        }
+        ],
+        "media": {
+        "reputation": 70,
+        "popularity": 66,
+        "charisma": 60,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 17,
+        "name": "Jean Victor Ramos",
+        "short_name": "J. Ramos",
+        "shirt_name": "J. Ramos",
+        "nationality": "Brazil",
+        "birth": "2003-06-02",
+        "age": 22,
+        "height": 174,
+        "weight": 70,
+        "shirt_number": 7,
+        "position": "LM",
+        "foot": "Left",
+        "club": "Cruz Santa",
+        "atributes": {
+        "fisical": {
+            "velocity": 88,
+            "acceleration": 90,
+            "strength": 68,
+            "stamina": 84,
+            "impulse": 72,
+            "balance": 78
+        },
+        "technique": {
+            "positioning": 72,
+            "finishing": 72,
+            "long_shot": 60,
+            "heading": 48,
+            "dribbling": 90,
+            "crossing": 84,
+            "long_pass": 64,
+            "short_pass": 76,
+            "ball_control": 88,
+            "curve": 64,
+            "tackling": 58,
+            "interceptions": 54,
+            "marking": 56,
+            "sliding_tackle": 50,
+            "pressure": 72,
+            "reflexes": 20,
+            "placing": 20,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 74,
+            "composition": 70,
+            "decision": 72,
+            "lider": 44,
+            "agression": 60,
+            "concentration": 70,
+            "composure": 72
+        }
+        },
+        "traits": [
+        "Winger",
+        "Trickster",
+        "Cut Inside"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Cruz Santa",
+            "appearances": 31,
+            "goals": 12,
+            "assists": 8,
+            "yellow_cards": 2,
+            "red_cards": 0,
+            "rating": 7.2
+        }
+        ],
+        "media": {
+        "reputation": 64,
+        "popularity": 72,
+        "charisma": 68,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 18,
+        "name": "Mateus Ribeiro Silva",
+        "short_name": "M. Ribeiro",
+        "shirt_name": "M. Ribeiro",
+        "nationality": "Brazil",
+        "birth": "1997-11-18",
+        "age": 27,
+        "height": 178,
+        "weight": 76,
+        "shirt_number": 8,
+        "position": "CM",
+        "foot": "Right",
+        "club": "Cruz Santa",
+        "atributes": {
+        "fisical": {
+            "velocity": 74,
+            "acceleration": 72,
+            "strength": 76,
+            "stamina": 86,
+            "impulse": 72,
+            "balance": 74
+        },
+        "technique": {
+            "positioning": 76,
+            "finishing": 66,
+            "long_shot": 68,
+            "heading": 60,
+            "dribbling": 74,
+            "crossing": 60,
+            "long_pass": 74,
+            "short_pass": 80,
+            "ball_control": 78,
+            "curve": 56,
+            "tackling": 70,
+            "interceptions": 72,
+            "marking": 68,
+            "sliding_tackle": 66,
+            "pressure": 76,
+            "reflexes": 20,
+            "placing": 18,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 78,
+            "composition": 76,
+            "decision": 78,
+            "lider": 64,
+            "agression": 66,
+            "concentration": 78,
+            "composure": 76
+        }
+        },
+        "traits": [
+        "Regista",
+        "Tempo Controller"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Cruz Santa",
+            "appearances": 34,
+            "goals": 5,
+            "assists": 10,
+            "yellow_cards": 5,
+            "red_cards": 0,
+            "rating": 7.1
+        }
+        ],
+        "media": {
+        "reputation": 68,
+        "popularity": 62,
+        "charisma": 58,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 19,
+        "name": "Lucas Ferreira Nunes",
+        "short_name": "L. Nunes",
+        "shirt_name": "L. Nunes",
+        "nationality": "Brazil",
+        "birth": "2001-02-25",
+        "age": 24,
+        "height": 181,
+        "weight": 77,
+        "shirt_number": 9,
+        "position": "ST",
+        "foot": "Right",
+        "club": "Cruz Santa",
+        "atributes": {
+        "fisical": {
+            "velocity": 84,
+            "acceleration": 82,
+            "strength": 80,
+            "stamina": 76,
+            "impulse": 80,
+            "balance": 76
+        },
+        "technique": {
+            "positioning": 82,
+            "finishing": 86,
+            "long_shot": 78,
+            "heading": 78,
+            "dribbling": 78,
+            "crossing": 48,
+            "long_pass": 58,
+            "short_pass": 70,
+            "ball_control": 80,
+            "curve": 60,
+            "tackling": 40,
+            "interceptions": 38,
+            "marking": 48,
+            "sliding_tackle": 32,
+            "pressure": 78,
+            "reflexes": 20,
+            "placing": 82,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 70,
+            "composition": 74,
+            "decision": 76,
+            "lider": 62,
+            "agression": 72,
+            "concentration": 78,
+            "composure": 80
+        }
+        },
+        "traits": [
+        "Complete Forward",
+        "Clinical Finisher"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Cruz Santa",
+            "appearances": 35,
+            "goals": 20,
+            "assists": 7,
+            "yellow_cards": 4,
+            "red_cards": 0,
+            "rating": 7.6
+        }
+        ],
+        "media": {
+        "reputation": 76,
+        "popularity": 78,
+        "charisma": 72,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 20,
+        "name": "Diego Rafael Lima",
+        "short_name": "D. Lima",
+        "shirt_name": "D. Lima",
+        "nationality": "Brazil",
+        "birth": "1998-05-14",
+        "age": 27,
+        "height": 185,
+        "weight": 81,
+        "shirt_number": 10,
+        "position": "ST",
+        "foot": "Left",
+        "club": "Cruz Santa",
+        "atributes": {
+        "fisical": {
+            "velocity": 80,
+            "acceleration": 78,
+            "strength": 84,
+            "stamina": 78,
+            "impulse": 82,
+            "balance": 78
+        },
+        "technique": {
+            "positioning": 80,
+            "finishing": 84,
+            "long_shot": 80,
+            "heading": 84,
+            "dribbling": 76,
+            "crossing": 50,
+            "long_pass": 60,
+            "short_pass": 74,
+            "ball_control": 80,
+            "curve": 64,
+            "tackling": 42,
+            "interceptions": 36,
+            "marking": 48,
+            "sliding_tackle": 30,
+            "pressure": 78,
+            "reflexes": 20,
+            "placing": 80,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 72,
+            "composition": 76,
+            "decision": 78,
+            "lider": 68,
+            "agression": 74,
+            "concentration": 78,
+            "composure": 78
+        }
+        },
+        "traits": [
+        "Target Man",
+        "Powerful Header"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Cruz Santa",
+            "appearances": 33,
+            "goals": 15,
+            "assists": 6,
+            "yellow_cards": 5,
+            "red_cards": 0,
+            "rating": 7.1
+        }
+        ],
+        "media": {
+        "reputation": 72,
+        "popularity": 70,
+        "charisma": 66,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 21,
+        "name": "Thiago Varela Souza",
+        "short_name": "T. Souza",
+        "shirt_name": "T. Souza",
+        "nationality": "Brazil",
+        "birth": "2004-03-14",
+        "age": 21,
+        "height": 173,
+        "weight": 68,
+        "shirt_number": 11,
+        "position": "LM",
+        "foot": "Left",
+        "club": "Recife FC",
+        "atributes": {
+        "fisical": {
+            "velocity": 90,
+            "acceleration": 88,
+            "strength": 62,
+            "stamina": 80,
+            "impulse": 72,
+            "balance": 82
+        },
+        "technique": {
+            "positioning": 70,
+            "finishing": 70,
+            "long_shot": 64,
+            "heading": 46,
+            "dribbling": 90,
+            "crossing": 84,
+            "long_pass": 68,
+            "short_pass": 76,
+            "ball_control": 88,
+            "curve": 66,
+            "tackling": 48,
+            "interceptions": 50,
+            "marking": 50,
+            "sliding_tackle": 44,
+            "pressure": 72,
+            "reflexes": 20,
+            "placing": 70,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 78,
+            "composition": 72,
+            "decision": 74,
+            "lider": 46,
+            "agression": 56,
+            "concentration": 72,
+            "composure": 74
+        }
+        },
+        "traits": [
+        "Winger",
+        "Trickster",
+        "Inverted Winger"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Recife FC",
+            "appearances": 28,
+            "goals": 10,
+            "assists": 9,
+            "yellow_cards": 2,
+            "red_cards": 0,
+            "rating": 7.1
+        }
+        ],
+        "media": {
+        "reputation": 65,
+        "popularity": 70,
+        "charisma": 66,
+        "controversies": 0
+        }
+    },
+    {
+        "id": 22,
+        "name": "Guilherme Santos Carvalho",
+        "short_name": "G. Carvalho",
+        "shirt_name": "G. Carvalho",
+        "nationality": "Brazil",
+        "birth": "2003-09-09",
+        "age": 21,
+        "height": 175,
+        "weight": 72,
+        "shirt_number": 11,
+        "position": "RM",
+        "foot": "Right",
+        "club": "Cruz Santa",
+        "atributes": {
+        "fisical": {
+            "velocity": 88,
+            "acceleration": 86,
+            "strength": 68,
+            "stamina": 82,
+            "impulse": 74,
+            "balance": 80
+        },
+        "technique": {
+            "positioning": 72,
+            "finishing": 68,
+            "long_shot": 66,
+            "heading": 50,
+            "dribbling": 88,
+            "crossing": 86,
+            "long_pass": 66,
+            "short_pass": 74,
+            "ball_control": 86,
+            "curve": 64,
+            "tackling": 52,
+            "interceptions": 52,
+            "marking": 54,
+            "sliding_tackle": 48,
+            "pressure": 74,
+            "reflexes": 20,
+            "placing": 68,
+            "goalkeeping": 6
+        },
+        "mental": {
+            "vision": 76,
+            "composition": 70,
+            "decision": 72,
+            "lider": 48,
+            "agression": 58,
+            "concentration": 72,
+            "composure": 72
+        }
+        },
+        "traits": [
+        "Wide Creator",
+        "Speedster",
+        "Accurate Crosser"
+        ],
+        "histoy": [
+        {
+            "year": 2024,
+            "club": "Cruz Santa",
+            "appearances": 30,
+            "goals": 9,
+            "assists": 10,
+            "yellow_cards": 3,
+            "red_cards": 0,
+            "rating": 7.0
+        }
+        ],
+        "media": {
+        "reputation": 64,
+        "popularity": 69,
+        "charisma": 65,
+        "controversies": 0
+        }
+    }
+]
