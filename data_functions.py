@@ -17,6 +17,10 @@ def find_team_by_id(team_id: int):
     """Procurar time pelo ID"""
     return next((t for t in all_teams if t['id'] == team_id), None)
 
+def find_team_by_name(team_name: str):
+    """Procurar time pelo nome"""
+    return next((t for t in all_teams if t['nome'] == team_name), None)
+
 def find_players_by_team(team_id: int):
     """Procurar todos os jogadores de um time"""
     team = find_team_by_id(team_id)

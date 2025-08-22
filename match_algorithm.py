@@ -76,18 +76,18 @@ def simulate_match(team_id_a: float, team_id_b: float, fixture_weight: float = 1
             prob_goal = max(0.0, min(prob_goal, 0.95))
 
             if random.random() < prob_goal:
-                # Gol!
-                if team == "A":
+                if team == name_a:
                     score_a += 1
-                    momentum_a = 1.0  # reset / ganho de momentum
-                    events.append({"minute": minute, "team": "A", "type": "GOL"})
+                    momentum_a = 1.0 
+                    events.append({"minute": minute, "team": name_a, "type": "GOAL"})
                 else:
                     score_b += 1
                     momentum_b = 1.0
-                    events.append({"minute": minute, "team": "B", "type": "GOL"})
+                    events.append({"minute": minute, "team": name_b, "type": "GOAL"})
+            elif ruido > 1.1:
+                events.append({"minute": minute, "team": team, "type": "SHOT_ON_TARGET"})
             else:
-                # criação de chance sem gol (opcional guardar)
-                events.append({"minute": minute, "team": team, "type": "CHANCE"})
+                events.append({"minute": minute, "team": team, "type": "SHOT"})
 
         # decay de momentum
         momentum_a *= momentum_decay
