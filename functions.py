@@ -52,7 +52,29 @@ def narrar_jogo(fixture: dict):
                         print(f"{event['team']} finaliza, mas bola passa longe.")
                     case 'SHOT_ON_TARGET':
                         print(f"QUAAAAAASE! {event['team']} chuta no gol do time adversário.")
+                    case 'GOAL':
+                        print(f"GOOOOOOOL! {event['team']} faz um golaço!")
+
+                        if event['team'] == team_home:
+                            score_home += 1
+                        else:
+                            score_away += 1
                         
         print(f"{t}' | {team_home} {score_home} x {score_away} {team_away}")
-        print("-"*10)
-        # time.sleep(5)
+        print("-"*20)
+        time.sleep(1)
+    
+    print("FIM DE JOGO!")
+    print(f"Resultado Final: {team_home} {score_home} x {score_away} {team_away}")
+    print("-"*20)
+
+    stats = fixture_stats(fixture)
+    print("Publico geral:", stats['venue']['public'])
+    print("\nEstatísticas do Jogo:")
+    for team_stats in stats['stats']:
+        print(f"Time: {team_stats['team']}")
+        print(f"Gols: {team_stats['team_stats']['goals']}")
+        print(f"Posse de Bola: {team_stats['team_stats']['possession']}%")
+        print(f"Chutes: {team_stats['team_stats']['shots']}")
+        print(f"Chutes no Gol: {team_stats['team_stats']['on_target']}")
+        print("-"*20)

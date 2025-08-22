@@ -12,7 +12,7 @@
         "shirt_number": 1,
         "position": "GK",
         "foot": "Right",
-        "club": "Recife FC",
+        "club": "Sport Recife",
         "atributes": {
         "fisical": {
             "velocity": 40,
@@ -60,7 +60,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Recife FC",
+            "club": "Sport Recife",
             "appearances": 34,
             "goals": 0,
             "assists": 0,
@@ -89,7 +89,7 @@
         "shirt_number": 2,
         "position": "RB",
         "foot": "Right",
-        "club": "Recife FC",
+        "club": "Sport Recife",
         "atributes": {
         "fisical": {
             "velocity": 84,
@@ -136,7 +136,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Recife FC",
+            "club": "Sport Recife",
             "appearances": 32,
             "goals": 4,
             "assists": 8,
@@ -165,7 +165,7 @@
         "shirt_number": 3,
         "position": "CB",
         "foot": "Left",
-        "club": "Recife FC",
+        "club": "Sport Recife",
         "atributes": {
         "fisical": {
             "velocity": 66,
@@ -213,7 +213,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Recife FC",
+            "club": "Sport Recife",
             "appearances": 36,
             "goals": 3,
             "assists": 1,
@@ -242,7 +242,7 @@
         "shirt_number": 4,
         "position": "CB",
         "foot": "Right",
-        "club": "Recife FC",
+        "club": "Sport Recife",
         "atributes": {
         "fisical": {
             "velocity": 72,
@@ -289,7 +289,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Recife FC",
+            "club": "Sport Recife",
             "appearances": 30,
             "goals": 2,
             "assists": 3,
@@ -318,7 +318,7 @@
         "shirt_number": 5,
         "position": "LB",
         "foot": "Left",
-        "club": "Recife FC",
+        "club": "Sport Recife",
         "atributes": {
         "fisical": {
             "velocity": 86,
@@ -365,7 +365,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Recife FC",
+            "club": "Sport Recife",
             "appearances": 33,
             "goals": 3,
             "assists": 9,
@@ -394,7 +394,7 @@
         "shirt_number": 6,
         "position": "CM",
         "foot": "Right",
-        "club": "Recife FC",
+        "club": "Sport Recife",
         "atributes": {
         "fisical": {
             "velocity": 74,
@@ -442,7 +442,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Recife FC",
+            "club": "Sport Recife",
             "appearances": 35,
             "goals": 8,
             "assists": 11,
@@ -471,7 +471,7 @@
         "shirt_number": 7,
         "position": "RM",
         "foot": "Right",
-        "club": "Recife FC",
+        "club": "Sport Recife",
         "atributes": {
         "fisical": {
             "velocity": 88,
@@ -518,7 +518,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Recife FC",
+            "club": "Sport Recife",
             "appearances": 30,
             "goals": 10,
             "assists": 7,
@@ -547,7 +547,7 @@
         "shirt_number": 8,
         "position": "CM",
         "foot": "Right",
-        "club": "Recife FC",
+        "club": "Sport Recife",
         "atributes": {
         "fisical": {
             "velocity": 72,
@@ -595,7 +595,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Recife FC",
+            "club": "Sport Recife",
             "appearances": 36,
             "goals": 6,
             "assists": 9,
@@ -624,7 +624,7 @@
         "shirt_number": 9,
         "position": "ST",
         "foot": "Right",
-        "club": "Recife FC",
+        "club": "Sport Recife",
         "atributes": {
         "fisical": {
             "velocity": 86,
@@ -672,7 +672,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Recife FC",
+            "club": "Sport Recife",
             "appearances": 34,
             "goals": 22,
             "assists": 6,
@@ -701,7 +701,7 @@
         "shirt_number": 10,
         "position": "ST",
         "foot": "Left",
-        "club": "Recife FC",
+        "club": "Sport Recife",
         "atributes": {
         "fisical": {
             "velocity": 78,
@@ -749,7 +749,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Recife FC",
+            "club": "Sport Recife",
             "appearances": 32,
             "goals": 16,
             "assists": 8,
@@ -779,7 +779,7 @@
         "shirt_number": 1,
         "position": "GK",
         "foot": "Right",
-        "club": "Cruz Santa",
+        "club": "Santa Cruz",
         "atributes": {
         "fisical": {
             "velocity": 38,
@@ -826,7 +826,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Cruz Santa",
+            "club": "Santa Cruz",
             "appearances": 34,
             "goals": 0,
             "assists": 0,
@@ -855,7 +855,7 @@
         "shirt_number": 2,
         "position": "RB",
         "foot": "Right",
-        "club": "Cruz Santa",
+        "club": "Santa Cruz",
         "atributes": {
         "fisical": {
             "velocity": 82,
@@ -902,7 +902,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Cruz Santa",
+            "club": "Santa Cruz",
             "appearances": 33,
             "goals": 2,
             "assists": 6,
@@ -931,7 +931,7 @@
         "shirt_number": 3,
         "position": "CB",
         "foot": "Right",
-        "club": "Cruz Santa",
+        "club": "Santa Cruz",
         "atributes": {
         "fisical": {
             "velocity": 64,
@@ -978,7 +978,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Cruz Santa",
+            "club": "Santa Cruz",
             "appearances": 38,
             "goals": 4,
             "assists": 0,
@@ -1007,7 +1007,7 @@
         "shirt_number": 4,
         "position": "CB",
         "foot": "Left",
-        "club": "Cruz Santa",
+        "club": "Santa Cruz",
         "atributes": {
         "fisical": {
             "velocity": 70,
@@ -1054,7 +1054,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Cruz Santa",
+            "club": "Santa Cruz",
             "appearances": 31,
             "goals": 1,
             "assists": 2,
@@ -1083,7 +1083,7 @@
         "shirt_number": 5,
         "position": "LB",
         "foot": "Left",
-        "club": "Cruz Santa",
+        "club": "Santa Cruz",
         "atributes": {
         "fisical": {
             "velocity": 84,
@@ -1130,7 +1130,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Cruz Santa",
+            "club": "Santa Cruz",
             "appearances": 34,
             "goals": 4,
             "assists": 6,
@@ -1159,7 +1159,7 @@
         "shirt_number": 6,
         "position": "CM",
         "foot": "Right",
-        "club": "Cruz Santa",
+        "club": "Santa Cruz",
         "atributes": {
         "fisical": {
             "velocity": 74,
@@ -1206,7 +1206,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Cruz Santa",
+            "club": "Santa Cruz",
             "appearances": 36,
             "goals": 7,
             "assists": 12,
@@ -1235,7 +1235,7 @@
         "shirt_number": 7,
         "position": "LM",
         "foot": "Left",
-        "club": "Cruz Santa",
+        "club": "Santa Cruz",
         "atributes": {
         "fisical": {
             "velocity": 88,
@@ -1283,7 +1283,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Cruz Santa",
+            "club": "Santa Cruz",
             "appearances": 31,
             "goals": 12,
             "assists": 8,
@@ -1312,7 +1312,7 @@
         "shirt_number": 8,
         "position": "CM",
         "foot": "Right",
-        "club": "Cruz Santa",
+        "club": "Santa Cruz",
         "atributes": {
         "fisical": {
             "velocity": 74,
@@ -1359,7 +1359,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Cruz Santa",
+            "club": "Santa Cruz",
             "appearances": 34,
             "goals": 5,
             "assists": 10,
@@ -1388,7 +1388,7 @@
         "shirt_number": 9,
         "position": "ST",
         "foot": "Right",
-        "club": "Cruz Santa",
+        "club": "Santa Cruz",
         "atributes": {
         "fisical": {
             "velocity": 84,
@@ -1435,7 +1435,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Cruz Santa",
+            "club": "Santa Cruz",
             "appearances": 35,
             "goals": 20,
             "assists": 7,
@@ -1464,7 +1464,7 @@
         "shirt_number": 10,
         "position": "ST",
         "foot": "Left",
-        "club": "Cruz Santa",
+        "club": "Santa Cruz",
         "atributes": {
         "fisical": {
             "velocity": 80,
@@ -1511,7 +1511,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Cruz Santa",
+            "club": "Santa Cruz",
             "appearances": 33,
             "goals": 15,
             "assists": 6,
@@ -1540,7 +1540,7 @@
         "shirt_number": 11,
         "position": "LM",
         "foot": "Left",
-        "club": "Recife FC",
+        "club": "Sport Recife",
         "atributes": {
         "fisical": {
             "velocity": 90,
@@ -1588,7 +1588,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Recife FC",
+            "club": "Sport Recife",
             "appearances": 28,
             "goals": 10,
             "assists": 9,
@@ -1617,7 +1617,7 @@
         "shirt_number": 11,
         "position": "RM",
         "foot": "Right",
-        "club": "Cruz Santa",
+        "club": "Santa Cruz",
         "atributes": {
         "fisical": {
             "velocity": 88,
@@ -1665,7 +1665,7 @@
         "histoy": [
         {
             "year": 2024,
-            "club": "Cruz Santa",
+            "club": "Santa Cruz",
             "appearances": 30,
             "goals": 9,
             "assists": 10,
@@ -1679,6 +1679,848 @@
         "popularity": 69,
         "charisma": 65,
         "controversies": 0
+        }
+    },
+    {
+        "id": 23,
+        "name": "Weverton Pereira da Silva",
+        "short_name": "Weverton",
+        "shirt_name": "Weverton",
+        "nationality": "Brazil",
+        "birth": "1987-12-13",
+        "age": 37,
+        "height": 189,
+        "weight": 89,
+        "shirt_number": 21,
+        "position": "GK",
+        "foot": "Right",
+        "club": "Palmeiras",
+        "atributes": {
+            "fisical": {
+                "velocity": 45,
+                "acceleration": 40,
+                "strength": 80,
+                "stamina": 75,
+                "impulse": 88,
+                "balance": 70
+            },
+            "technique": {
+                "positioning": 85,
+                "finishing": 10,
+                "long_shot": 10,
+                "heading": 20,
+                "dribbling": 25,
+                "crossing": 15,
+                "long_pass": 65,
+                "short_pass": 60,
+                "ball_control": 55,
+                "curve": 10,
+                "tackling": 20,
+                "interceptions": 30,
+                "marking": 30,
+                "sliding_tackle": 15,
+                "pressure": 50,
+                "reflexes": 90,
+                "placing": 85,
+                "goalkeeping": 92
+            },
+            "mental": {
+                "vision": 50,
+                "composition": 75,
+                "decision": 80,
+                "lider": 85,
+                "agression": 40,
+                "concentration": 88,
+                "composure": 85
+            }
+        },
+        "traits": [
+            "Command of Area",
+            "Penalty Saver",
+            "Quick Reflexes"
+        ],
+        "histoy": [
+            {
+                "year": 2024,
+                "club": "Palmeiras",
+                "appearances": 45,
+                "goals": 0,
+                "assists": 0,
+                "yellow_cards": 3,
+                "red_cards": 0,
+                "rating": 7.8
+            }
+        ],
+        "media": {
+            "reputation": 80,
+            "popularity": 85,
+            "charisma": 70,
+            "controversies": 0
+        }
+    },
+    {
+        "id": 24,
+        "name": "Gustavo Raúl Gómez Portillo",
+        "short_name": "G. Gómez",
+        "shirt_name": "G. Gómez",
+        "nationality": "Paraguay",
+        "birth": "1993-05-06",
+        "age": 32,
+        "height": 185,
+        "weight": 83,
+        "shirt_number": 15,
+        "position": "CB",
+        "foot": "Right",
+        "club": "Palmeiras",
+        "atributes": {
+            "fisical": {
+                "velocity": 70,
+                "acceleration": 65,
+                "strength": 90,
+                "stamina": 80,
+                "impulse": 80,
+                "balance": 75
+            },
+            "technique": {
+                "positioning": 88,
+                "finishing": 40,
+                "long_shot": 35,
+                "heading": 88,
+                "dribbling": 50,
+                "crossing": 30,
+                "long_pass": 75,
+                "short_pass": 70,
+                "ball_control": 65,
+                "curve": 20,
+                "tackling": 88,
+                "interceptions": 85,
+                "marking": 90,
+                "sliding_tackle": 80,
+                "pressure": 80,
+                "reflexes": 20,
+                "placing": 15,
+                "goalkeeping": 8
+            },
+            "mental": {
+                "vision": 60,
+                "composition": 85,
+                "decision": 88,
+                "lider": 90,
+                "agression": 75,
+                "concentration": 88,
+                "composure": 85
+            }
+        },
+        "traits": [
+            "Aerial Threat",
+            "Tactical Defender",
+            "Captain Material"
+        ],
+        "histoy": [
+            {
+                "year": 2024,
+                "club": "Palmeiras",
+                "appearances": 40,
+                "goals": 5,
+                "assists": 2,
+                "yellow_cards": 8,
+                "red_cards": 1,
+                "rating": 8.0
+            }
+        ],
+        "media": {
+            "reputation": 85,
+            "popularity": 80,
+            "charisma": 75,
+            "controversies": 0
+        }
+    },
+    {
+        "id": 25,
+        "name": "Murilo Cerqueira Paim",
+        "short_name": "Murilo",
+        "shirt_name": "Murilo",
+        "nationality": "Brazil",
+        "birth": "1997-03-27",
+        "age": 28,
+        "height": 188,
+        "weight": 80,
+        "shirt_number": 26,
+        "position": "CB",
+        "foot": "Left",
+        "club": "Palmeiras",
+        "atributes": {
+            "fisical": {
+                "velocity": 72,
+                "acceleration": 70,
+                "strength": 88,
+                "stamina": 82,
+                "impulse": 82,
+                "balance": 78
+            },
+            "technique": {
+                "positioning": 85,
+                "finishing": 45,
+                "long_shot": 40,
+                "heading": 85,
+                "dribbling": 55,
+                "crossing": 35,
+                "long_pass": 70,
+                "short_pass": 75,
+                "ball_control": 68,
+                "curve": 25,
+                "tackling": 85,
+                "interceptions": 82,
+                "marking": 88,
+                "sliding_tackle": 78,
+                "pressure": 78,
+                "reflexes": 20,
+                "placing": 18,
+                "goalkeeping": 8
+            },
+            "mental": {
+                "vision": 65,
+                "composition": 80,
+                "decision": 82,
+                "lider": 70,
+                "agression": 70,
+                "concentration": 85,
+                "composure": 80
+            }
+        },
+        "traits": [
+            "Ball Playing Defender",
+            "Strong in Duels"
+        ],
+        "histoy": [
+            {
+                "year": 2024,
+                "club": "Palmeiras",
+                "appearances": 38,
+                "goals": 4,
+                "assists": 1,
+                "yellow_cards": 6,
+                "red_cards": 0,
+                "rating": 7.7
+            }
+        ],
+        "media": {
+            "reputation": 78,
+            "popularity": 75,
+            "charisma": 68,
+            "controversies": 0
+        }
+    },
+    {
+        "id": 26,
+        "name": "Agustín Giay",
+        "short_name": "Giay",
+        "shirt_name": "Giay",
+        "nationality": "Argentina",
+        "birth": "2004-01-16",
+        "age": 21,
+        "height": 179,
+        "weight": 70,
+        "shirt_number": 2,
+        "position": "RB",
+        "foot": "Right",
+        "club": "Palmeiras",
+        "atributes": {
+            "fisical": {
+                "velocity": 85,
+                "acceleration": 88,
+                "strength": 70,
+                "stamina": 85,
+                "impulse": 75,
+                "balance": 80
+            },
+            "technique": {
+                "positioning": 75,
+                "finishing": 60,
+                "long_shot": 55,
+                "heading": 60,
+                "dribbling": 80,
+                "crossing": 82,
+                "long_pass": 70,
+                "short_pass": 78,
+                "ball_control": 82,
+                "curve": 65,
+                "tackling": 75,
+                "interceptions": 70,
+                "marking": 72,
+                "sliding_tackle": 70,
+                "pressure": 78,
+                "reflexes": 20,
+                "placing": 15,
+                "goalkeeping": 8
+            },
+            "mental": {
+                "vision": 70,
+                "composition": 75,
+                "decision": 78,
+                "lider": 60,
+                "agression": 65,
+                "concentration": 78,
+                "composure": 75
+            }
+        },
+        "traits": [
+            "Overlapping Runs",
+            "Accurate Crosser"
+        ],
+        "histoy": [
+            {
+                "year": 2024,
+                "club": "Palmeiras",
+                "appearances": 30,
+                "goals": 2,
+                "assists": 7,
+                "yellow_cards": 4,
+                "red_cards": 0,
+                "rating": 7.5
+            }
+        ],
+        "media": {
+            "reputation": 70,
+            "popularity": 72,
+            "charisma": 65,
+            "controversies": 0
+        }
+    },
+    {
+        "id": 27,
+        "name": "Joaquín Piquerez Moreira",
+        "short_name": "Piquerez",
+        "shirt_name": "Piquerez",
+        "nationality": "Uruguay",
+        "birth": "1998-08-24",
+        "age": 27,
+        "height": 184,
+        "weight": 78,
+        "shirt_number": 22,
+        "position": "LB",
+        "foot": "Left",
+        "club": "Palmeiras",
+        "atributes": {
+            "fisical": {
+                "velocity": 82,
+                "acceleration": 80,
+                "strength": 75,
+                "stamina": 88,
+                "impulse": 70,
+                "balance": 78
+            },
+            "technique": {
+                "positioning": 78,
+                "finishing": 65,
+                "long_shot": 60,
+                "heading": 65,
+                "dribbling": 78,
+                "crossing": 85,
+                "long_pass": 72,
+                "short_pass": 80,
+                "ball_control": 80,
+                "curve": 70,
+                "tackling": 80,
+                "interceptions": 75,
+                "marking": 78,
+                "sliding_tackle": 75,
+                "pressure": 80,
+                "reflexes": 20,
+                "placing": 18,
+                "goalkeeping": 8
+            },
+            "mental": {
+                "vision": 75,
+                "composition": 78,
+                "decision": 80,
+                "lider": 68,
+                "agression": 70,
+                "concentration": 80,
+                "composure": 78
+            }
+        },
+        "traits": [
+            "Wing-Back",
+            "Accurate Crosser"
+        ],
+        "histoy": [
+            {
+                "year": 2024,
+                "club": "Palmeiras",
+                "appearances": 42,
+                "goals": 3,
+                "assists": 9,
+                "yellow_cards": 5,
+                "red_cards": 0,
+                "rating": 7.6
+            }
+        ],
+        "media": {
+            "reputation": 75,
+            "popularity": 78,
+            "charisma": 70,
+            "controversies": 0
+        }
+    },
+    {
+        "id": 28,
+        "name": "Aníbal Ismael Moreno",
+        "short_name": "Aníbal Moreno",
+        "shirt_name": "Aníbal Moreno",
+        "nationality": "Argentina",
+        "birth": "1999-05-13",
+        "age": 26,
+        "height": 178,
+        "weight": 70,
+        "shirt_number": 5,
+        "position": "CDM",
+        "foot": "Right",
+        "club": "Palmeiras",
+        "atributes": {
+            "fisical": {
+                "velocity": 70,
+                "acceleration": 68,
+                "strength": 78,
+                "stamina": 88,
+                "impulse": 75,
+                "balance": 78
+            },
+            "technique": {
+                "positioning": 80,
+                "finishing": 50,
+                "long_shot": 60,
+                "heading": 65,
+                "dribbling": 70,
+                "crossing": 60,
+                "long_pass": 80,
+                "short_pass": 85,
+                "ball_control": 82,
+                "curve": 60,
+                "tackling": 85,
+                "interceptions": 88,
+                "marking": 82,
+                "sliding_tackle": 80,
+                "pressure": 85,
+                "reflexes": 20,
+                "placing": 15,
+                "goalkeeping": 8
+            },
+            "mental": {
+                "vision": 78,
+                "composition": 82,
+                "decision": 85,
+                "lider": 75,
+                "agression": 78,
+                "concentration": 85,
+                "composure": 82
+            }
+        },
+        "traits": [
+            "Deep Lying Playmaker",
+            "Tackling Machine"
+        ],
+        "histoy": [
+            {
+                "year": 2024,
+                "club": "Palmeiras",
+                "appearances": 35,
+                "goals": 2,
+                "assists": 4,
+                "yellow_cards": 7,
+                "red_cards": 0,
+                "rating": 7.9
+            }
+        ],
+        "media": {
+            "reputation": 78,
+            "popularity": 75,
+            "charisma": 70,
+            "controversies": 0
+        }
+    },
+    {
+        "id": 29,
+        "name": "Raphael Cavalcante Veiga",
+        "short_name": "R. Veiga",
+        "shirt_name": "R. Veiga",
+        "nationality": "Brazil",
+        "birth": "1995-06-19",
+        "age": 30,
+        "height": 178,
+        "weight": 75,
+        "shirt_number": 23,
+        "position": "CAM",
+        "foot": "Left",
+        "club": "Palmeiras",
+        "atributes": {
+            "fisical": {
+                "velocity": 70,
+                "acceleration": 72,
+                "strength": 68,
+                "stamina": 80,
+                "impulse": 70,
+                "balance": 75
+            },
+            "technique": {
+                "positioning": 85,
+                "finishing": 82,
+                "long_shot": 85,
+                "heading": 60,
+                "dribbling": 80,
+                "crossing": 75,
+                "long_pass": 82,
+                "short_pass": 85,
+                "ball_control": 88,
+                "curve": 85,
+                "tackling": 60,
+                "interceptions": 65,
+                "marking": 60,
+                "sliding_tackle": 55,
+                "pressure": 75,
+                "reflexes": 20,
+                "placing": 88,
+                "goalkeeping": 8
+            },
+            "mental": {
+                "vision": 88,
+                "composition": 85,
+                "decision": 85,
+                "lider": 80,
+                "agression": 65,
+                "concentration": 88,
+                "composure": 85
+            }
+        },
+        "traits": [
+            "Playmaker",
+            "Long Shot Taker",
+            "Free Kick Specialist"
+        ],
+        "histoy": [
+            {
+                "year": 2024,
+                "club": "Palmeiras",
+                "appearances": 40,
+                "goals": 15,
+                "assists": 12,
+                "yellow_cards": 4,
+                "red_cards": 0,
+                "rating": 8.5
+            }
+        ],
+        "media": {
+            "reputation": 88,
+            "popularity": 90,
+            "charisma": 85,
+            "controversies": 0
+        }
+    },
+    {
+        "id": 30,
+        "name": "José Rafael de Carvalho Silva",
+        "short_name": "Zé Rafael",
+        "shirt_name": "Zé Rafael",
+        "nationality": "Brazil",
+        "birth": "1993-06-16",
+        "age": 32,
+        "height": 175,
+        "weight": 70,
+        "shirt_number": 8,
+        "position": "CM",
+        "foot": "Left",
+        "club": "Palmeiras",
+        "atributes": {
+            "fisical": {
+                "velocity": 75,
+                "acceleration": 72,
+                "strength": 70,
+                "stamina": 85,
+                "impulse": 70,
+                "balance": 78
+            },
+            "technique": {
+                "positioning": 78,
+                "finishing": 65,
+                "long_shot": 68,
+                "heading": 60,
+                "dribbling": 78,
+                "crossing": 70,
+                "long_pass": 78,
+                "short_pass": 82,
+                "ball_control": 80,
+                "curve": 70,
+                "tackling": 80,
+                "interceptions": 78,
+                "marking": 75,
+                "sliding_tackle": 72,
+                "pressure": 80,
+                "reflexes": 20,
+                "placing": 18,
+                "goalkeeping": 8
+            },
+            "mental": {
+                "vision": 80,
+                "composition": 80,
+                "decision": 82,
+                "lider": 75,
+                "agression": 70,
+                "concentration": 82,
+                "composure": 80
+            }
+        },
+        "traits": [
+            "Box-to-Box",
+            "Work Rate"
+        ],
+        "histoy": [
+            {
+                "year": 2024,
+                "club": "Palmeiras",
+                "appearances": 38,
+                "goals": 6,
+                "assists": 8,
+                "yellow_cards": 6,
+                "red_cards": 0,
+                "rating": 7.8
+            }
+        ],
+        "media": {
+            "reputation": 78,
+            "popularity": 80,
+            "charisma": 72,
+            "controversies": 0
+        }
+    },
+    {
+        "id": 31,
+        "name": "Eduardo Pereira Rodrigues",
+        "short_name": "Dudu",
+        "shirt_name": "Dudu",
+        "nationality": "Brazil",
+        "birth": "1992-01-07",
+        "age": 33,
+        "height": 167,
+        "weight": 67,
+        "shirt_number": 7,
+        "position": "LW",
+        "foot": "Right",
+        "club": "Palmeiras",
+        "atributes": {
+            "fisical": {
+                "velocity": 85,
+                "acceleration": 88,
+                "strength": 65,
+                "stamina": 80,
+                "impulse": 70,
+                "balance": 85
+            },
+            "technique": {
+                "positioning": 82,
+                "finishing": 78,
+                "long_shot": 75,
+                "heading": 50,
+                "dribbling": 90,
+                "crossing": 85,
+                "long_pass": 70,
+                "short_pass": 80,
+                "ball_control": 90,
+                "curve": 80,
+                "tackling": 60,
+                "interceptions": 55,
+                "marking": 50,
+                "sliding_tackle": 45,
+                "pressure": 70,
+                "reflexes": 20,
+                "placing": 80,
+                "goalkeeping": 8
+            },
+            "mental": {
+                "vision": 85,
+                "composition": 80,
+                "decision": 82,
+                "lider": 85,
+                "agression": 70,
+                "concentration": 85,
+                "composure": 82
+            }
+        },
+        "traits": [
+            "Dribbler",
+            "Clinical Finisher",
+            "Leadership"
+        ],
+        "histoy": [
+            {
+                "year": 2024,
+                "club": "Palmeiras",
+                "appearances": 30,
+                "goals": 10,
+                "assists": 10,
+                "yellow_cards": 3,
+                "red_cards": 0,
+                "rating": 8.2
+            }
+        ],
+        "media": {
+            "reputation": 85,
+            "popularity": 90,
+            "charisma": 80,
+            "controversies": 0
+        }
+    },
+    {
+        "id": 32,
+        "name": "Ronielson da Silva Barbosa",
+        "short_name": "Rony",
+        "shirt_name": "Rony",
+        "nationality": "Brazil",
+        "birth": "1995-05-11",
+        "age": 30,
+        "height": 166,
+        "weight": 63,
+        "shirt_number": 10,
+        "position": "ST",
+        "foot": "Right",
+        "club": "Palmeiras",
+        "atributes": {
+            "fisical": {
+                "velocity": 90,
+                "acceleration": 92,
+                "strength": 60,
+                "stamina": 85,
+                "impulse": 80,
+                "balance": 88
+            },
+            "technique": {
+                "positioning": 80,
+                "finishing": 80,
+                "long_shot": 70,
+                "heading": 70,
+                "dribbling": 85,
+                "crossing": 70,
+                "long_pass": 60,
+                "short_pass": 75,
+                "ball_control": 82,
+                "curve": 70,
+                "tackling": 50,
+                "interceptions": 45,
+                "marking": 40,
+                "sliding_tackle": 35,
+                "pressure": 75,
+                "reflexes": 20,
+                "placing": 78,
+                "goalkeeping": 8
+            },
+            "mental": {
+                "vision": 70,
+                "composition": 78,
+                "decision": 80,
+                "lider": 65,
+                "agression": 75,
+                "concentration": 80,
+                "composure": 78
+            }
+        },
+        "traits": [
+            "Clinical Finisher",
+            "Pace Setter",
+            "Acrobatic"
+        ],
+        "histoy": [
+            {
+                "year": 2024,
+                "club": "Palmeiras",
+                "appearances": 35,
+                "goals": 12,
+                "assists": 8,
+                "yellow_cards": 4,
+                "red_cards": 0,
+                "rating": 7.9
+            }
+        ],
+        "media": {
+            "reputation": 80,
+            "popularity": 85,
+            "charisma": 75,
+            "controversies": 0
+        }
+    },
+    {
+        "id": 33,
+        "name": "Endrick Felipe Moreira de Sousa",
+        "short_name": "Endrick",
+        "shirt_name": "Endrick",
+        "nationality": "Brazil",
+        "birth": "2006-07-21",
+        "age": 19,
+        "height": 173,
+        "weight": 66,
+        "shirt_number": 9,
+        "position": "RW",
+        "foot": "Left",
+        "club": "Palmeiras",
+        "atributes": {
+            "fisical": {
+                "velocity": 88,
+                "acceleration": 90,
+                "strength": 75,
+                "stamina": 78,
+                "impulse": 80,
+                "balance": 85
+            },
+            "technique": {
+                "positioning": 85,
+                "finishing": 88,
+                "long_shot": 80,
+                "heading": 70,
+                "dribbling": 88,
+                "crossing": 75,
+                "long_pass": 65,
+                "short_pass": 78,
+                "ball_control": 88,
+                "curve": 75,
+                "tackling": 50,
+                "interceptions": 45,
+                "marking": 40,
+                "sliding_tackle": 35,
+                "pressure": 70,
+                "reflexes": 20,
+                "placing": 85,
+                "goalkeeping": 8
+            },
+            "mental": {
+                "vision": 75,
+                "composition": 80,
+                "decision": 82,
+                "lider": 60,
+                "agression": 70,
+                "concentration": 85,
+                "composure": 80
+            }
+        },
+        "traits": [
+            "Clinical Finisher",
+            "Dribbler",
+            "Flair"
+        ],
+        "histoy": [
+            {
+                "year": 2024,
+                "club": "Palmeiras",
+                "appearances": 30,
+                "goals": 15,
+                "assists": 5,
+                "yellow_cards": 2,
+                "red_cards": 0,
+                "rating": 8.5
+            }
+        ],
+        "media": {
+            "reputation": 90,
+            "popularity": 92,
+            "charisma": 88,
+            "controversies": 0
         }
     }
 ]

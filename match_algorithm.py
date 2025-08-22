@@ -27,7 +27,7 @@ def simulate_match(team_id_a: float, team_id_b: float, fixture_weight: float = 1
     name_b, over_b = data_f.calc_team_overall(team_id_b)
 
     # Parâmetros ajustáveis (brinque com eles)
-    base_chances_per_match = 15.0   # expectativa total de chances (soma dos dois times)
+    base_chances_per_match = 25.0   # expectativa total de chances (soma dos dois times)
     gamma = 2                     # sensibilidade: >1 aumenta diferença entre over altos e baixos
     conversion_base = 0.10          # probabilidade base de um chance virar gol (antes de modifiers)
     diff_total_boost = 1.8          # quanto o total de chances sobe com diferença grande (opcional)

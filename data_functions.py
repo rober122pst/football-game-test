@@ -50,14 +50,14 @@ def calc_over(player):
     
     match player["position"]:
         case "GK":
-            weight_goalkepper = 8
+            weight_goalkepper = 10
         case "RB" | "LB" | "LCB" | "CB" | "RCB":
-            weight_defense = 8
-            weight_fisical = 6
+            weight_defense = 10
+            weight_fisical = 5
         case "LWB" | "CDM" | "RWB":
-            weight_defense = 6
-            weight_fisical = 4
-            weight_attack = 4
+            weight_defense = 8
+            weight_fisical = 5
+            weight_attack = 2
         case "LM" | "LCM" | "RCM" | "RM" | "CM":
             weight_defense = 6
             weight_fisical = 4
@@ -82,3 +82,8 @@ def calc_team_overall(team_id: int) -> tuple[str, int]:
     over_av = over_sum // len(players)
     
     return team['nome'], over_av
+
+def all_players_over_by_team(team_id: int) -> list[tuple[str, int]]:
+    """Calcular média de overall de todos os jogadores de um time"""
+    players = find_players_by_team(team_id)
+    return [(p['name'], calc_over(p)) for p in players]
