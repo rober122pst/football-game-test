@@ -1,6 +1,14 @@
 from enum import Enum
 from dataclasses import dataclass
 
+class PlayerState(Enum):
+    ATTACKING = "Atacando"
+    DEFENDING = "Defendendo"
+    MARKING = "Marcando"
+    WITH_POSSESSION = "Com a posse"
+    WITHOUT_POSSESSION = "Sem a posse"
+    LOOKING_FOR_POSITION = "Procurando posição"
+
 class Position(Enum):
     GOALKEPPER = "GO"
     CENTRE_BACK = "ZAG"
@@ -40,6 +48,7 @@ class Player:
     fisical_attr: dict
     mental_attr: dict
 
+    current_state = PlayerState.WITHOUT_POSSESSION
     moral = 50 # 0 a 100
     fisical_fitness = 100 # 0 a 100
     injury = 5 # 0 a 100
@@ -66,6 +75,16 @@ class Player:
         self.fisical_fitness * fixture_intensit * .1
         if self.fisical_fitness <= 0:
             self.fisical_fitness = 0
+
+    def decide_action(self, game_state):
+        """Decide a ação do jogador baseado no estado do jogo"""
+        pass
+
+    def decide_with_ball(self, game_state):
+        """Decide a ação do jogador quando está com a bola"""
+        pass
+
+    def with_ball(self, game_state): return 
 
     def __str__(self):
         return f"Jogador: {self.name} | Posição: {self.position} | Moral: {self.moral} | Cond. Física {self.fisical_fitness} | Over: {self.calc_overall()}"
