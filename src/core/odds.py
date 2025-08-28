@@ -22,7 +22,6 @@ def simulate_pass(player: Player, distance: int, pression: int, stadium_conditio
         prob_base *= .85
     
     prob_base = max(0, min(1, prob_base))
-    
     return prob_base
 
 def simulate_goals(media_goals: float) -> float:
@@ -30,8 +29,9 @@ def simulate_goals(media_goals: float) -> float:
     
 def simulate_shoot_precision(shot_quality: int, derivation: int) -> int:
     real_precision = np.random.normal(shot_quality, derivation)
+
     return max(0, min(20, real_precision))
 
-jogador1 = Player(122, "Jogador 1", Position.CENTRE_BACK, {"short_pass": 20}, {"velocity": 10}, {"vision": 12})
-resultado = simulate_pass(jogador1, 40, 14, 'dry')
-print(f"Resultado do passe: {resultado}")
+# jogador1 = Player(122, "Jogador 1", Position.CENTRE_BACK, {"short_pass": 20}, {"velocity": 10}, {"vision": 12})
+# resultado = simulate_pass(jogador1, 40, 14, 'dry')
+# print(f"Resultado do passe: {resultado}")
