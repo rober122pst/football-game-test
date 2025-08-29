@@ -1,7 +1,7 @@
 from enum import Enum
 from dataclasses import dataclass
 from ..core.decision_tree import DecisionNode
-import src.core.odds as odds
+from ..core.odds import simulate_shoot_precision, simulate_pass
 
 class PlayerState(Enum):
     ATTACKING = "Atacando"
@@ -84,10 +84,10 @@ class Player:
         tree = DecisionNode('with_ball', filhos=[
             DecisionNode(value='yes', filhos=[
                 DecisionNode('in_goal', filhos=[
-                    DecisionNode(value='yes', action=lambda a: odds.simulate_shoot_precision(self.technique_attr['finishing'], a['derivation'])),
+                    DecisionNode(value='yes', action=lambda a: simulate_shoot_precision(self.technique_attr['finishing'], a['derivation'])),
                     DecisionNode(value='no', filhos=[
                         DecisionNode('friend_free', filhos=[
-                            DecisionNode(value='yes', action=lambda a: odds.simulate_pass(self.technique_attr['short_pass'], a['distance'], a['pression'], a['stadium_codition'])),
+                            DecisionNode(value='yes', action=lambda a: simulate_pass(self.technique_attr['short_pass'], a['distance'], a['pression'], a['stadium_codition'])),
                             DecisionNode(value='no', action=None)
                         ])
                     ])
@@ -102,7 +102,7 @@ class Player:
         ])
         
         tree.classificar(game_state)
-        
+        return "shoot"
         # if self.with_ball(game_state):
         #     self.current_state = PlayerState.WITH_POSSESSION
         # elif self.team_with_ball(game_state):
@@ -144,44 +144,44 @@ class Player:
         return f"Jogador: {self.name} | Posição: {self.position} | Moral: {self.moral} | Cond. Física {self.fisical_fitness} | Over: {self.calc_overall()}"
 
 
-jogador1 = Player(1, "Rober", Position.STRIKER,
-    {
-        "positioning": 20,
-        "finishing": 10,
-        "long_shot": 12,
-        "heading": 20,
-        "dribbling": 20,
-        "crossing": 20,
-        "long_pass": 18,
-        "short_pass": 16,
-        "ball_control": 10,
-        "curve": 10,
-        "tackling": 20,
-        "interceptions": 12,
-        "marking": 11,
-        "sliding_tackle": 18,
-        "pressure": 9,
-        "reflexes": 19,
-        "placing": 17,
-        "goalkeeping": 19
-    },
-    {
-        "velocity": 15,
-        "acceleration": 5,
-        "strength": 17,
-        "stamina": 16,
-        "impulse": 17,
-        "balance": 16
-    },
-    {
-        "vision": 6,
-        "composition": 16,
-        "decision": 15,
-        "lider": 12,
-        "agression": 4,
-        "concentration": 17,
-        "composure": 17
-    })
+# jogador1 = Player(1, "Rober", Position.STRIKER,
+#     {
+#         "positioning": 20,
+#         "finishing": 10,
+#         "long_shot": 12,
+#         "heading": 20,
+#         "dribbling": 20,
+#         "crossing": 20,
+#         "long_pass": 18,
+#         "short_pass": 16,
+#         "ball_control": 10,
+#         "curve": 10,
+#         "tackling": 20,
+#         "interceptions": 12,
+#         "marking": 11,
+#         "sliding_tackle": 18,
+#         "pressure": 9,
+#         "reflexes": 19,
+#         "placing": 17,
+#         "goalkeeping": 19
+#     },
+#     {
+#         "velocity": 15,
+#         "acceleration": 5,
+#         "strength": 17,
+#         "stamina": 16,
+#         "impulse": 17,
+#         "balance": 16
+#     },
+#     {
+#         "vision": 6,
+#         "composition": 16,
+#         "decision": 15,
+#         "lider": 12,
+#         "agression": 4,
+#         "concentration": 17,
+#         "composure": 17
+#     })
 
 if __name__ == "__main__":
     jogador1.personality.append(Personality.LEADER)

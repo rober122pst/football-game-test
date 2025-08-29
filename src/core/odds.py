@@ -1,12 +1,11 @@
 import random
 import matplotlib.pyplot as plt
 import numpy as np
-from ..models.players import Player, Position
 
-random.seed(42)
-np.random.seed(42)
+# random.seed(42)
+# np.random.seed(42)
 
-def simulate_pass(player: Player, distance: int, pression: int, stadium_condition: str) -> bool:
+def simulate_pass(player, distance: int, pression: int, stadium_condition: str) -> bool:
     prob_base = player.technique_attr["short_pass"] / 20.0
 
     # Passes longos mais dificeis
