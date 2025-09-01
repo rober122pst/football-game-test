@@ -1,5 +1,7 @@
 from src.models import match, players, teams
 from src.core import game_engine
+from src.core import game_interface
+import json
 
 time1 = teams.Team(87, "Sport Recife", {})
 time2 = teams.Team(14, "Santa Cruz", {})
@@ -85,8 +87,9 @@ time1.add_player(jogador1)
 time2.add_player(jogador2)
 
 if __name__ == '__main__':
-    print(f"{time1.name} vs {time2.name}")
-    game_engine.Fixture(time1, time2).simulate_fixture()
+    fixture = game_engine.Fixture(time1, time2)
+    interface = game_interface.PygameInterface()
+    interface.execute(fixture.state)
 
     
 

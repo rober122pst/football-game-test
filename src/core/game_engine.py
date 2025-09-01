@@ -58,17 +58,15 @@ class Fixture:
             self._simulate_pass(player)
          
     def _simulate_shoot(self, player):
-        shooter_team = self.state.player_team(player)
-        # while self.boolean < 2:    
-        print(f"{player.name} chutou!")
+        # print(f"{player.name} chutou!")
             
-        print(shooter_team.name)
-            # self.boolean+=1
+        # print(shooter_team.name)
         if random.random() < .1:
+            shooter_team = self.state.player_team(player)
             if shooter_team == self.state.team_home:
-                self.state.home_score += 1
-            else:
                 self.state.away_score += 1
+            else:
+                self.state.home_score += 1
             # print(f"GOOOOOL! Placar: {self.state.home_score}x{self.state.away_score}")
             # self.state.events.append(f"Gol de {player.name} aos {self.state.current_time:.1}s")
             

@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from .players import Player, Position
 
 @dataclass
@@ -9,13 +9,13 @@ class Team:
     tatics: dict = "4-3-3" # ex 4-3-3, 4-4-2, 5-3-2
     harmony: int = 75
     moral: int = 80
-    players = []
-    setorial_strength = {
+    players: list = field(default_factory=list)
+    setorial_strength: dict = field(default_factory=lambda:  {
         'attack': 0,
         'midfield': 0,
         'defense': 0,
-        'goalkepper': 0
-    }
+        'goalkeeper': 0
+    })
     
     def add_player(self, player: Player):
         self.players.append(player)

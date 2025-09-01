@@ -49,6 +49,7 @@ class Player:
     technique_attr: dict
     fisical_attr: dict
     mental_attr: dict
+    positioning: tuple = (0, 0)
 
     current_state = PlayerState.WITHOUT_POSSESSION
     moral = 50 # 0 a 100
@@ -183,14 +184,14 @@ class Player:
 #         "composure": 17
 #     })
 
-if __name__ == "__main__":
-    jogador1.personality.append(Personality.LEADER)
-    print(jogador1)
-    action = {
-        'with_ball': 'yes',
-        'in_goal': 'yes',
-        'derivation': 5
-    }
-    jogador1.decide_action(action)
+# if __name__ == "__main__":
+#     jogador1.personality.append(Personality.LEADER)
+#     print(jogador1)
+#     action = {
+#         'with_ball': 'yes',
+#         'in_goal': 'yes',
+#         'derivation': 5
+#     }
+#     jogador1.decide_action(action)
 
 
