@@ -1,6 +1,30 @@
 import pygame
 import sys
+from typing import Tuple
 
+class CoordSystem:
+    def __init__(self, field_width: float, field_height: float, screen_w: int, screen_h: int, margin: int = 50):
+        self.field_width = field_width
+        self.field_height = field_height
+        self.screen_w = screen_w
+        self.screen_h = screen_h
+        self.margin = margin
+
+        self.x_scale = (screen_w - 2 * margin) / field_width
+        self.y_scale = (screen_h - 2 * margin) / field_height
+
+        self.scale = min(self.x_scale, self.y_scale)
+
+        self.x_offset = (screen_w - field_width * self.scale) / 2
+        self.y_offset = (screen_h - field_height * self.scale) / 2
+
+    def to_screen(self, x: float, y: float) -> Tuple[int, int]:
+        """Converte coordenadas do mundo do jogo para coords da tela."""
+        x_screen = int(x * self.scale + self.x_offset)
+        y_screen = int(y * self.scale + self.y_offset)
+        return (x_screen, y_screen)
+
+    def screen_to_world(self, x_screen: int, y_screen: int)
 
 class PygameInterface:
     def __init__(self):
