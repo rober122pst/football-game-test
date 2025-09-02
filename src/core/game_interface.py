@@ -121,9 +121,7 @@ class PygameInterface:
         self.draw_hud(match_state)
 
     def update(self, match_state):
-        if not self.paused:
-            for _ in range(int(self.speed)):
-                match_state
+        pass
 
     def execute(self, match_state):
         run = True
@@ -132,7 +130,7 @@ class PygameInterface:
                 if event.type == pygame.QUIT:
                     run = False
 
-            self.update()
+            self.update(match_state)
             self.draw(match_state)
 
             pygame.display.flip()

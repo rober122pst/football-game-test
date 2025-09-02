@@ -68,11 +68,82 @@ class Player:
             if not 0 <= attr <= 20:
                 raise ValueError("Atributo maior que o valor permitido (1 a 20)")
             
-    def calc_overall(self) -> int:
-        """Calcular overall do jogador baseado em seus atributos"""
-        # TODO: fazer baseado em posição com média ponderada
-        sum_attr = (self.technique_attr["short_pass"] + self.technique_attr['finishing'] + self.technique_attr['dribbling'] + self.fisical_attr['velocity'] + self.fisical_attr['strength'] + self.fisical_attr['stamina'] + self.mental_attr['vision'] + self.mental_attr['decision']) // 8
-        return (sum_attr*99)//20
+    def calculate_overall(self, position: Position, weights_by_position=None, default_missing=10):
+        """
+        Calcula o overall (1-99) de um jogador a partir dos atributos.
+        - attributes: dicionário com chaves de categoria (fisical, technique, mental) contendo atributos.
+        - position: Posição do jogador (Enum Position).
+        - weights_by_position: dict opcional com pesos por posição (cada peso deve somar 1.0, será normalizado se não somar).
+        - default_missing: valor usado quando um atributo esperado não existir (padrão 10).
+        Retorna um inteiro entre 1 e 99.
+        """
+
+        # Flatten dos atributos (fisical, technique, mental -> chaves únicas)
+        flat = self.technique_attr
+        flat.update(self.fisical_attr)
+        flat.update(self.mental_attr)
+
+        # Pesos padrões (exemplo). Ajuste conforme seu gosto/gameplay.
+        default_weights = {
+            'GO': {
+                'reflexes': 0.28, 'goalkeeping': 0.30, 'placing': 0.12, 'composure': 0.08,
+                'positioning': 0.06, 'short_pass': 0.03, 'concentration': 0.05, 'strength': 0.03, 'balance': 0.02
+            },
+            'ST': {
+                'finishing': 0.25, 'positioning': 0.15, 'acceleration': 0.10, 'velocity': 0.10, 'strength': 0.08,
+                'heading': 0.06, 'dribbling': 0.06, 'composure': 0.04, 'short_pass': 0.04, 'stamina': 0.04, 'ball_control': 0.03
+            },
+            'CB': {
+                'marking': 0.22, 'interceptions': 0.18, 'tackling': 0.16, 'strength': 0.12, 'heading': 0.10,
+                'positioning': 0.08, 'composure': 0.06, 'short_pass': 0.04, 'concentration': 0.04
+            },
+            'CM': {
+                'vision': 0.18, 'short_pass': 0.18, 'long_pass': 0.12, 'decision': 0.12, 'stamina': 0.10,
+                'composure': 0.08, 'positioning': 0.06, 'dribbling': 0.06, 'strength': 0.05, 'concentration': 0.05
+            },
+            'LB': {
+                'stamina': 0.15, 'acceleration': 0.12, 'velocity': 0.12, 'crossing': 0.12, 'short_pass': 0.10,
+                'tackling': 0.10, 'marking': 0.10, 'positioning': 0.08, 'composure': 0.06
+            }
+        }
+
+        # Use pesos passados ou default
+        weights_by_position = weights_by_position or default_weights
+
+        # Normaliza a chave da posição e mapeia sinônimos simples
+        pos = position.upper()
+        mapping = {
+            'GOALKEEPER':'GK','KEEPER':'GK',
+            'CF':'ST','FW':'ST','STRIKER':'ST',
+            'CENTERBACK':'CB','CENTRE_BACK':'CB','CB':'CB',
+            'MID':'CM','MC':'CM','CM':'CM',
+            'LEFTBACK':'LB','LEFT_BACK':'LB','LWB':'LB',
+            'RIGHTBACK':'LB','RIGHT_BACK':'LB','RWB':'LB'
+        }
+        pos = mapping.get(pos, pos)
+
+        # Escolhe pesos; se posição não existir, cai em CM (meio) por padrão
+        pos_weights = weights_by_position.get(pos, weights_by_position.get('CM'))
+
+        # garante que os pesos somem 1 (normaliza)
+        s = sum(pos_weights.values())
+        if s <= 0:
+            raise ValueError("Pesos inválidos para a posição.")
+        pos_weights = {k: v / s for k, v in pos_weights.items()}
+
+        # calcula soma ponderada (cada atributo é convertido para 0..1 pelo /20)
+        total = 0.0
+        for attr, w in pos_weights.items():
+            val = flat.get(attr, default_missing)  # se faltar, usa default
+            # limita o valor pra evitar outliers (1..20)
+            if val < 1: val = 1
+            if val > 20: val = 20
+            total += w * (val / 20.0)
+
+        # escala para 1..99 e arredonda
+        overall = round(total * 99)
+        overall = max(1, min(99, int(overall)))
+        return overall
     
     def update_fisical_fitness(self, fixture_intensit) -> int:
         """Diminui a forma fisica 10% de acordo com a intensidade da partida"""
@@ -142,47 +213,7 @@ class Player:
     def shoot(self): print("Chutei no gol!")
 
     def __str__(self):
-        return f"Jogador: {self.name} | Posição: {self.position} | Moral: {self.moral} | Cond. Física {self.fisical_fitness} | Over: {self.calc_overall()}"
-
-
-# jogador1 = Player(1, "Rober", Position.STRIKER,
-#     {
-#         "positioning": 20,
-#         "finishing": 10,
-#         "long_shot": 12,
-#         "heading": 20,
-#         "dribbling": 20,
-#         "crossing": 20,
-#         "long_pass": 18,
-#         "short_pass": 16,
-#         "ball_control": 10,
-#         "curve": 10,
-#         "tackling": 20,
-#         "interceptions": 12,
-#         "marking": 11,
-#         "sliding_tackle": 18,
-#         "pressure": 9,
-#         "reflexes": 19,
-#         "placing": 17,
-#         "goalkeeping": 19
-#     },
-#     {
-#         "velocity": 15,
-#         "acceleration": 5,
-#         "strength": 17,
-#         "stamina": 16,
-#         "impulse": 17,
-#         "balance": 16
-#     },
-#     {
-#         "vision": 6,
-#         "composition": 16,
-#         "decision": 15,
-#         "lider": 12,
-#         "agression": 4,
-#         "concentration": 17,
-#         "composure": 17
-#     })
+        return f"Jogador: {self.name} | Posição: {self.position} | Moral: {self.moral} | Cond. Física {self.fisical_fitness} | Over: {self.calculate_overall(self.position.value)}"
 
 # if __name__ == "__main__":
 #     jogador1.personality.append(Personality.LEADER)

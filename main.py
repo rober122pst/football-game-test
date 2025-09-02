@@ -6,61 +6,36 @@ import json
 time1 = teams.Team(87, "Sport Recife", {})
 time2 = teams.Team(14, "Santa Cruz", {})
 
-jogador1 = players.Player(1, "Rober", players.Position.STRIKER,
-    {
-        "positioning": 20,
-        "finishing": 10,
-        "long_shot": 12,
-        "heading": 20,
-        "dribbling": 20,
-        "crossing": 20,
-        "long_pass": 18,
-        "short_pass": 16,
-        "ball_control": 10,
-        "curve": 10,
-        "tackling": 20,
-        "interceptions": 12,
-        "marking": 11,
-        "sliding_tackle": 18,
-        "pressure": 9,
-        "reflexes": 19,
-        "placing": 17,
-        "goalkeeping": 19
-    },
-    {
-        "velocity": 15,
-        "acceleration": 5,
-        "strength": 17,
-        "stamina": 16,
-        "impulse": 17,
-        "balance": 16
-    },
-    {
-        "vision": 6,
-        "composition": 16,
-        "decision": 15,
-        "lider": 12,
-        "agression": 4,
-        "concentration": 17,
-        "composure": 17
-    })
+with open('data/players.json', 'r') as f:
+    players_data = json.load(f)
+
+player1 = players_data[0]
+
+jogador1 = players.Player(
+    player1['id'],
+    player1['name'],
+    players.Position(player1['position']),
+    player1['atributes']['technique'],
+    player1['atributes']['fisical'],
+    player1['atributes']['mental']
+)
 jogador2 = players.Player(2, "Caio", players.Position.STRIKER,
     {
         "positioning": 20,
-        "finishing": 10,
-        "long_shot": 12,
+        "finishing": 20,
+        "long_shot": 20,
         "heading": 20,
         "dribbling": 20,
         "crossing": 20,
-        "long_pass": 18,
-        "short_pass": 16,
-        "ball_control": 10,
-        "curve": 10,
+        "long_pass": 20,
+        "short_pass": 20,
+        "ball_control": 20,
+        "curve": 20,
         "tackling": 20,
-        "interceptions": 12,
-        "marking": 11,
-        "sliding_tackle": 18,
-        "pressure": 9,
+        "interceptions": 20,
+        "marking": 20,
+        "sliding_tackle": 20,
+        "pressure": 20,
         "reflexes": 19,
         "placing": 17,
         "goalkeeping": 19
@@ -87,6 +62,7 @@ time1.add_player(jogador1)
 time2.add_player(jogador2)
 
 if __name__ == '__main__':
+    print(jogador1)
     fixture = game_engine.Fixture(time1, time2)
     interface = game_interface.PygameInterface()
     interface.execute(fixture.state)
