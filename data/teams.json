@@ -2,14 +2,16 @@
     {
         "id": 1,
         "nome": "Sport Recife",
-        "apelido": "Leão da Praia",
-        "sigla": "RFC",
+        "apelido": "Leão da Ilha",
+        "sigla": "SPO",
         "cidade": "Recife",
         "pais": "Brazil",
         "fundacao": "1905-05-13",
 
         "estadio": {
-            "nome": "Arena Recife",
+            "nome": "Aldemar da Costa Carvalho",
+            "nickname": "Ilha do Retiro",
+            "location": "Recife, Brazil",
             "capacidade": 27180,
             "qualidade_campo": 75,
             "taxa_ocupacao_media": 0.62
@@ -21,12 +23,12 @@
             "despesa_anual": 950000.0,
             "folha_salarial_mensal": 100000.0,
             "patrocinadores": [
-            {
-                "nome": "Empresa X",
-                "valor_anual": 200000.0,
-                "fim_contrato": "2026-12-31",
-                "tipo": "principal"
-            }
+                {
+                    "nome": "Empresa X",
+                    "valor_anual": 200000.0,
+                    "fim_contrato": "2026-12-31",
+                    "tipo": "principal"
+                }
             ],
             "dividas": 150000.0,
             "transfer_budget": 300000.0,
@@ -48,18 +50,18 @@
 
         "instalacoes": {
             "centro_treinamento": {
-            "qualidade": 70,
-            "capacidade_alojamento": 40,
-            "instalacoes_fisicas": 68,
-            "investimento_anual": 20000.0
+                "qualidade": 70,
+                "capacidade_alojamento": 40,
+                "instalacoes_fisicas": 68,
+                "investimento_anual": 20000.0
             },
             "categoria_base": {
-            "qualidade": 60,
-            "capacidade_treinadores": 6
+                "qualidade": 60,
+                "capacidade_treinadores": 6
             },
             "medicina_esportiva": {
-            "qualidade": 65,
-            "capacidade_recuperacao": 8
+                "qualidade": 65,
+                "capacidade_recuperacao": 8
             }
         },
 
@@ -75,8 +77,8 @@
             "preparador_fisico": { "nome": "T. Lima", "qualidade": 66 },
             "medico_chefe": { "nome": "Dra. Alves", "qualidade": 70 },
             "scouts": [
-            { "regiao": "Nordeste", "qualidade": 55 },
-            { "regiao": "Sudeste", "qualidade": 60 }
+                { "regiao": "Nordeste", "qualidade": 55 },
+                { "regiao": "Sudeste", "qualidade": 60 }
             ],
             "diretoria": {
             "presidente": "João Presidente",
@@ -90,380 +92,20 @@
             "estilo_jogo": "Posse / Pressing",
             "mentalidade": "Equilibrada",
             "instrucao_padrao": {
-            "passe": "curto",
-            "pressionar": true,
-            "subir_laterais": true
+                "passe": "curto",
+                "pressionar": true,
+                "subir_laterais": true
             },
             "capitao_id": 2
         },
 
-        "squad": {
-            "jogadores_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
-            "plantel_profissional": 25,
-            "limite_estrangeiros": 4
-        },
-
         "contratos": [
             {
-            "jogador_id": 1,
-            "inicio": "2023-07-01",
-            "fim": "2026-06-30",
-            "salario_mensal": 20000.0,
-            "clausula_rescisoria": 500000.0
-            }
-        ],
-
-        "politica_transferencia": {
-            "vender_para_lucro": true,
-            "prioridade_idades": { "promocoes_base": 1, "compra_jovens": 1 },
-            "max_idade_compra": 34,
-            "min_potencial": 50
-        },
-
-        "scouting": {
-            "alcance_regioes": ["Nordeste", "Sudeste"],
-            "budget_anual": 15000.0,
-            "criterios": { "posicao_prioritaria": ["Atacante", "Zagueiro"], "min_idade": 16, "max_idade": 24 }
-        },
-
-        "competicoes": [
-            {
-            "id": 101,
-            "nome": "Campeonato Nacional",
-            "tipo": "liga",
-            "ranking_importancia": 1
-            },
-            {
-            "id": 201,
-            "nome": "Copa Regional",
-            "tipo": "copa",
-            "ranking_importancia": 2
-            }
-        ],
-
-        "historico": {
-            "titulos": [
-            { "competicao": "Campeonato Nacional", "ano": 1998 },
-            { "competicao": "Copa Regional", "ano": 2015 }
-            ],
-            "seasons": [
-            { "ano": 2024, "posicao": 4, "pontos": 62, "gols_marcados": 48, "gols_sofridos": 36 }
-            ]
-        },
-
-        "estatisticas_clube": {
-            "gols_marcados_total": 5123,
-            "gols_sofridos_total": 4890,
-            "partidas_jogadas_total": 3020
-        },
-
-        "eventos_clube": {
-            "ultimos_eventos": [
-            { "id": 301, "descricao": "Novo patrocinador assinado", "data": "2025-02-15" },
-            { "id": 302, "descricao": "Diretor demitido após escândalo", "data": "2025-03-02" }
-            ]
-        },
-
-        "regras_internas": {
-            "salario_max_porcentual": 0.35,
-            "politica_lesoes": "reabilitacao_prioritaria",
-            "limite_emprestimos": 8
-        },
-
-        "meta_do_clube": {
-            "curto_prazo": "classificacao_liga_top6",
-            "medio_prazo": "subir_ranking_continental",
-            "longo_prazo": "ser_top5_nacional_em_5_anos"
-        }
-    },
-    {
-        "id": 2,
-        "nome": "Santa Cruz",
-        "apelido": "Cobra do Sertão",
-        "sigla": "CSF",
-        "cidade": "Recife",
-        "pais": "Brazil",
-        "fundacao": "1914-11-13",
-
-        "estadio": {
-            "nome": "Arrudinho",
-            "capacidade": 63452,
-            "qualidade_campo": 59,
-            "taxa_ocupacao_media": 0.48
-        },
-
-        "financas": {
-            "saldo": 500000.0,
-            "receita_anual": 1200000.0,
-            "despesa_anual": 950000.0,
-            "folha_salarial_mensal": 100000.0,
-            "patrocinadores": [
-            {
-                "nome": "Empresa X",
-                "valor_anual": 200000.0,
-                "fim_contrato": "2026-12-31",
-                "tipo": "principal"
-            }
-            ],
-            "dividas": 150000.0,
-            "transfer_budget": 300000.0,
-            "wage_budget": 120000.0
-        },
-
-        "reputacao": {
-            "nacional": 70,
-            "continental": 20,
-            "historica": 65
-        },
-
-        "torcida": {
-            "tamanho": 4002153,
-            "satisfacao": 78,
-            "forca_organizada": 50,
-            "engajamento_social":70
-        },
-
-        "instalacoes": {
-            "centro_treinamento": {
-            "qualidade": 70,
-            "capacidade_alojamento": 40,
-            "instalacoes_fisicas": 68,
-            "investimento_anual": 20000.0
-            },
-            "categoria_base": {
-            "qualidade": 60,
-            "capacidade_treinadores": 6
-            },
-            "medicina_esportiva": {
-            "qualidade": 65,
-            "capacidade_recuperacao": 8
-            }
-        },
-
-        "staff": {
-            "tecnico": {
-                "id": 11,
-                "nome": "Carlos Treinador",
-                "experiencia": 8,
-                "philosofia": "Ofensiva",
-                "qualidade": 72
-            },
-            "assistente": { "nome": "R. Souza", "qualidade": 60 },
-            "preparador_fisico": { "nome": "T. Lima", "qualidade": 66 },
-            "medico_chefe": { "nome": "Dra. Alves", "qualidade": 70 },
-            "scouts": [
-            { "regiao": "Nordeste", "qualidade": 55 },
-            { "regiao": "Sudeste", "qualidade": 60 }
-            ],
-            "diretoria": {
-            "presidente": "João Presidente",
-            "objetivo_curto_prazo": "classificacao",
-            "expectativa_tempo": 2
-            }
-        },
-
-        "escalacao": {
-            "formacao_padrao": "4-2-3-1",
-            "estilo_jogo": "Posse / Pressing",
-            "mentalidade": "Equilibrada",
-            "instrucao_padrao": {
-            "passe": "curto",
-            "pressionar": true,
-            "subir_laterais": true
-            },
-            "capitao_id": 2
-        },
-
-        "squad": {
-            "jogadores_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
-            "plantel_profissional": 25,
-            "limite_estrangeiros": 4
-        },
-
-        "contratos": [
-            {
-            "jogador_id": 1,
-            "inicio": "2023-07-01",
-            "fim": "2026-06-30",
-            "salario_mensal": 20000.0,
-            "clausula_rescisoria": 500000.0
-            }
-        ],
-
-        "politica_transferencia": {
-            "vender_para_lucro": true,
-            "prioridade_idades": { "promocoes_base": 1, "compra_jovens": 1 },
-            "max_idade_compra": 34,
-            "min_potencial": 50
-        },
-
-        "scouting": {
-            "alcance_regioes": ["Nordeste", "Sudeste"],
-            "budget_anual": 15000.0,
-            "criterios": { "posicao_prioritaria": ["Atacante", "Zagueiro"], "min_idade": 16, "max_idade": 24 }
-        },
-
-        "competicoes": [
-            {
-            "id": 101,
-            "nome": "Campeonato Nacional",
-            "tipo": "liga",
-            "ranking_importancia": 1
-            },
-            {
-            "id": 201,
-            "nome": "Copa Regional",
-            "tipo": "copa",
-            "ranking_importancia": 2
-            }
-        ],
-
-        "historico": {
-            "titulos": [
-            { "competicao": "Campeonato Nacional", "ano": 1998 },
-            { "competicao": "Copa Regional", "ano": 2015 }
-            ],
-            "seasons": [
-            { "ano": 2024, "posicao": 4, "pontos": 62, "gols_marcados": 48, "gols_sofridos": 36 }
-            ]
-        },
-
-        "estatisticas_clube": {
-            "gols_marcados_total": 5123,
-            "gols_sofridos_total": 4890,
-            "partidas_jogadas_total": 3020
-        },
-
-        "eventos_clube": {
-            "ultimos_eventos": [
-            { "id": 301, "descricao": "Novo patrocinador assinado", "data": "2025-02-15" },
-            { "id": 302, "descricao": "Diretor demitido após escândalo", "data": "2025-03-02" }
-            ]
-        },
-
-        "regras_internas": {
-            "salario_max_porcentual": 0.35,
-            "politica_lesoes": "reabilitacao_prioritaria",
-            "limite_emprestimos": 8
-        },
-
-        "meta_do_clube": {
-            "curto_prazo": "classificacao_liga_top6",
-            "medio_prazo": "subir_ranking_continental",
-            "longo_prazo": "ser_top5_nacional_em_5_anos"
-        }
-    },
-    {
-        "id": 3,
-        "nome": "Palmeiras",
-        "apelido": "Porco",
-        "sigla": "PAL",
-        "cidade": "São Paulo",
-        "pais": "Brazil",
-        "fundacao": "1914-11-13",
-
-        "estadio": {
-            "nome": "Allianz Parque",
-            "capacidade": 63452,
-            "qualidade_campo": 59,
-            "taxa_ocupacao_media": 0.64
-        },
-
-        "financas": {
-            "saldo": 500000.0,
-            "receita_anual": 1200000.0,
-            "despesa_anual": 950000.0,
-            "folha_salarial_mensal": 100000.0,
-            "patrocinadores": [
-            {
-                "nome": "Empresa X",
-                "valor_anual": 200000.0,
-                "fim_contrato": "2026-12-31",
-                "tipo": "principal"
-            }
-            ],
-            "dividas": 150000.0,
-            "transfer_budget": 300000.0,
-            "wage_budget": 120000.0
-        },
-
-        "reputacao": {
-            "nacional": 70,
-            "continental": 20,
-            "historica": 65
-        },
-
-        "torcida": {
-            "tamanho": 4002153,
-            "satisfacao": 78,
-            "forca_organizada": 50,
-            "engajamento_social":70
-        },
-
-        "instalacoes": {
-            "centro_treinamento": {
-            "qualidade": 70,
-            "capacidade_alojamento": 40,
-            "instalacoes_fisicas": 68,
-            "investimento_anual": 20000.0
-            },
-            "categoria_base": {
-            "qualidade": 60,
-            "capacidade_treinadores": 6
-            },
-            "medicina_esportiva": {
-            "qualidade": 65,
-            "capacidade_recuperacao": 8
-            }
-        },
-
-        "staff": {
-            "tecnico": {
-                "id": 11,
-                "nome": "Carlos Treinador",
-                "experiencia": 8,
-                "philosofia": "Ofensiva",
-                "qualidade": 72
-            },
-            "assistente": { "nome": "R. Souza", "qualidade": 60 },
-            "preparador_fisico": { "nome": "T. Lima", "qualidade": 66 },
-            "medico_chefe": { "nome": "Dra. Alves", "qualidade": 70 },
-            "scouts": [
-            { "regiao": "Nordeste", "qualidade": 55 },
-            { "regiao": "Sudeste", "qualidade": 60 }
-            ],
-            "diretoria": {
-            "presidente": "João Presidente",
-            "objetivo_curto_prazo": "classificacao",
-            "expectativa_tempo": 2
-            }
-        },
-
-        "escalacao": {
-            "formacao_padrao": "4-2-3-1",
-            "estilo_jogo": "Posse / Pressing",
-            "mentalidade": "Equilibrada",
-            "instrucao_padrao": {
-            "passe": "curto",
-            "pressionar": true,
-            "subir_laterais": true
-            },
-            "capitao_id": 2
-        },
-
-        "squad": {
-            "jogadores_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
-            "plantel_profissional": 25,
-            "limite_estrangeiros": 4
-        },
-
-        "contratos": [
-            {
-            "jogador_id": 1,
-            "inicio": "2023-07-01",
-            "fim": "2026-06-30",
-            "salario_mensal": 20000.0,
-            "clausula_rescisoria": 500000.0
+                "jogador_id": 1,
+                "inicio": "2023-07-01",
+                "fim": "2026-06-30",
+                "salario_mensal": 20000.0,
+                "clausula_rescisoria": 500000.0
             }
         ],
 

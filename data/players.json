@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Rafael Henrique Moreira",
-        "short_name": "R. Moreira",
+        "short_name": "Rafael",
         "shirt_name": "R. Moreira",
         "nationality": "Brazil",
         "birth": "1997-04-10",
@@ -10,10 +10,10 @@
         "height": 189,
         "weight": 86,
         "shirt_number": 1,
-        "position": "GO",
+        "position": "GK",
         "foot": "Right",
-        "club": "Sport Recife",
-        "atributes": {
+        "club": 1,
+        "attributes": {
             "fisical": {
                 "velocity": 8,
                 "acceleration": 7,
@@ -23,7 +23,6 @@
                 "balance": 15
             },
             "technique": {
-                "positioning": 17,
                 "finishing": 2,
                 "long_shot": 3,
                 "heading": 4,
@@ -43,27 +42,15 @@
                 "goalkeeping": 19
             },
             "mental": {
+                "positioning": 17,
                 "vision": 9,
-                "composition": 14,
                 "decision": 15,
-                "lider": 15,
+                "leader": 15,
                 "agression": 8,
                 "concentration": 17,
                 "composure": 16
             }
         },
-        "histoy": [
-            {
-                "year": 2024,
-                "club": "Sport Recife",
-                "appearances": 34,
-                "goals": 0,
-                "assists": 0,
-                "yellow_cards": 2,
-                "red_cards": 0,
-                "rating": 7.1
-            }
-        ],
         "media": {
             "reputation": 72,
             "popularity": 68,

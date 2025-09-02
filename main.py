@@ -1,6 +1,6 @@
 from src.models import match, players, teams
 from src.core import game_engine
-from src.core import game_interface
+from src.interface import game_interface
 import json
 
 time1 = teams.Team(87, "Sport Recife", {})
@@ -15,11 +15,11 @@ jogador1 = players.Player(
     player1['id'],
     player1['name'],
     players.Position(player1['position']),
-    player1['atributes']['technique'],
-    player1['atributes']['fisical'],
-    player1['atributes']['mental']
+    player1['attributes']['technique'],
+    player1['attributes']['fisical'],
+    player1['attributes']['mental']
 )
-jogador2 = players.Player(2, "Caio", players.Position.STRIKER,
+jogador2 = players.Player(2, "Caio", players.Position.L_CENTRAL_MID,
     {
         "positioning": 20,
         "finishing": 20,
@@ -41,15 +41,15 @@ jogador2 = players.Player(2, "Caio", players.Position.STRIKER,
         "goalkeeping": 19
     },
     {
-        "velocity": 15,
-        "acceleration": 5,
+        "velocity": 20,
+        "acceleration": 20,
         "strength": 17,
         "stamina": 16,
         "impulse": 17,
         "balance": 16
     },
     {
-        "vision": 6,
+        "vision": 20,
         "composition": 16,
         "decision": 15,
         "lider": 12,
@@ -62,7 +62,7 @@ time1.add_player(jogador1)
 time2.add_player(jogador2)
 
 if __name__ == '__main__':
-    print(jogador1)
+    print(jogador2)
     fixture = game_engine.Fixture(time1, time2)
     interface = game_interface.PygameInterface()
     interface.execute(fixture.state)
