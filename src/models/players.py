@@ -52,6 +52,7 @@ class Player:
     positioning: tuple = (0, 0)
 
     current_state = PlayerState.WITHOUT_POSSESSION
+    current_pos = positioning
     moral = 50 # 0 a 100
     fisical_fitness = 100 # 0 a 100
     injury = 5 # 0 a 100
