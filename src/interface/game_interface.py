@@ -24,7 +24,11 @@ class CoordSystem:
         y_screen = int(y * self.scale + self.y_offset)
         return (x_screen, y_screen)
 
-    def screen_to_world(self, x_screen: int, y_screen: int)
+    def screen_to_world(self, x_screen: int, y_screen: int) -> Tuple[float, float]:
+        """Converte coords da tela para coords do mundo no jogo."""
+        x = (x_screen - self.x_offset) / self.scale
+        y = (y_screen - self.y_offset) / self.scale
+        return (x, y)
 
 class PygameInterface:
     def __init__(self):
