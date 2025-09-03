@@ -1,43 +1,10 @@
 from enum import Enum
 from dataclasses import dataclass
+import math
+from typing import Tuple
 from ..core.decision_tree import DecisionNode
 from ..core.odds import simulate_shoot_precision, simulate_pass
-
-class PlayerState(Enum):
-    ATTACKING = "Atacando"
-    DEFENDING = "Defendendo"
-    MARKING = "Marcando"
-    WITH_POSSESSION = "Com a posse"
-    WITHOUT_POSSESSION = "Sem a posse"
-    LOOKING_FOR_POSITION = "Procurando posição"
-
-class Position(Enum):
-    GOALKEEPER = "GK"
-    CENTRE_BACK = "CB"
-    L_BACK = "LB"
-    R_BACK = "RB"
-    L_WING_BACK = "LWB"
-    R_WING_BACK = "RWB"
-
-    CENTRAL_DEFENSE_MID = "CDM"
-    CENTRAL_MIDFIELDER = "CM"
-    L_CENTRAL_MID = "LCM"
-    R_CENTRAL_MID = "RCM"
-    L_MIDFILDER = "LDM"
-    CENTRAL_ATTACK_MID = "CAM"
-
-    LEFT_WINGER = "LW"
-    RIGHT_WINGER = "RW"
-    SECOND_STRIKER = "SS"
-    CENTRE_FOWARD = "CF"
-    STRIKER = "ST"
-
-class Personality(Enum):
-    LEADER = "Líder"
-    INDIVIDUALIST = "Individualista"
-    UNSTABLE = "Instável"
-    COLD_IN_FINALS = "Frio em Finais"
-    GOAL_SCORER = "Artilheiro"
+from ..types.types import Position, PlayerState, Personality, TaticalSetup
 
 @dataclass
 class Player:
@@ -49,16 +16,22 @@ class Player:
     technique_attr: dict
     fisical_attr: dict
     mental_attr: dict
-    positioning: tuple = (0, 0)
 
     current_state = PlayerState.WITHOUT_POSSESSION
-    current_pos = positioning
     moral = 50 # 0 a 100
     fisical_fitness = 100 # 0 a 100
     injury = 5 # 0 a 100
     experience = 0
     personality = []
-    
+
+    current_pos = (0, 0) # posição atual
+    target_position = (0, 0) # onde o jogador quer estar
+    positioning = (0, 0) # posição base na formação
+    current_vel = (0, 0) # vetor velocidade atual
+    move_mode = "default" # default, pressing, running
+
+    position_history = []
+    distance_covered = 0
 
     def __post_init__(self):
         all_attr = self.technique_attr
@@ -69,6 +42,26 @@ class Player:
             if not 0 <= attr <= 20:
                 raise ValueError("Atributo maior que o valor permitido (1 a 20)")
             
+    def define_positioning(self, tatical_setup: TaticalSetup, index: int = 0):
+        """Define a posição base do jogador na formação tática"""
+        self.positioning = tatical_setup.get_base_position(self.position, index)
+        self.current_pos = self.positioning
+        self.target_position = self.positioning
+
+    def update_position_history(self):
+        """Atualiza o histórico das ultimas 100 posições para análise"""
+        self.position_history.append(self.current_pos)
+        if len(self.position_history) > 100:
+            self.position_history.pop(0)
+
+    def calculate_distance_covered(self, prev_position: Tuple[float, float]) -> float:
+        """Calcula a distância percorrida pelo jogador no último tick."""
+        prev_x, prev_y = prev_position
+        curr_x, curr_y = self.current_pos
+        distance = math.sqrt((curr_x - prev_x) ** 2 + (curr_y - prev_y) ** 2)
+        self.distance_covered += distance
+        return distance
+
     def calculate_overall(self, position: Position, weights_by_position=None, default_missing=10):
         """
         Calcula o overall (1-99) de um jogador a partir dos atributos.

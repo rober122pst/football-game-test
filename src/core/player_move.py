@@ -1,9 +1,10 @@
 import heapq
 import math
 from typing import List, Tuple, Optional
-from ..models.players import Player, Position
+from ..models.players import Player
+from ..types.types import Position
 from ..models.teams import Team
-from .game_engine import MatchState
+from ..models.match import MatchState
 import random
 
 class TaticalPosition:

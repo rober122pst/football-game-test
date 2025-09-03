@@ -1,30 +1,15 @@
 from ..models.teams import Team
-from ..models.players import Player, Position
+from ..models.players import Player
+from ..types.types import Position
 from ..core.odds import simulate_pass
-from .player_move import ZoneManager, CoordinatorLines
+from .player_move import ZoneManager, CoordinatorLines, MovementBehavior
 import random
 import math
 from typing import Tuple, List
+from ..models.match import MatchState
 
 FIXTURE_TOTAL_TIME = 90*60
 TICK_TIME = .1
-
-class MatchState:
-    def __init__(self, team_home: Team, team_away: Team) -> None:
-        self.team_home = team_home
-        self.team_away = team_away
-        self.current_time = 0
-        self.home_score = 0
-        self.away_score = 0
-        self.ball_possession = None
-        self.ball_position = (0, 0)
-        self.events = []
-        
-    def player_team(self, player):
-        if player in self.team_home.players:
-            return self.team_home
-        else:
-            return self.team_away
 
 class Fixture:
     def __init__(self, team_home: Team, team_away: Team) -> None:
@@ -41,7 +26,16 @@ class Fixture:
         # Colisões
         all_players = state.team_home.players + state.team_away.players
         self.colision_system.resolve_colisions(all_players)
+
+        for player in all_players:
+            self.zone_manager.update_zones(player)
+
+        for player in all_players:
+            action = player.decide_action(state, state.player_team(player).coach_instructions)
+            self.proccess_player_action(player, action, state)
         
+        self.proccess_all_events(state)
+
         # att tempo
         self.state.current_time += TICK_TIME
         
@@ -49,15 +43,48 @@ class Fixture:
         # TODO fazer lógica
         pass
     
-    def proccess_all_events(self):
+    def proccess_all_events(self, state: MatchState):
         pass
     
-    def proccess_player_action(self, player, action):
+    def proccess_player_action(self, player, action, state: MatchState):
         if action == "shoot":
             self._simulate_shoot(player)
         elif action == "pass":
             self._simulate_pass(player)
          
+    def _update_target_position(self, state: MatchState):
+        """Calcula onde cada jogador deveria estar posicionado."""
+
+        def_line_home = self.lines_coordinator.calculate_defensive_line(state.team_home, state)
+        def_line_away = self.lines_coordinator.calculate_defensive_line(state.team_away, state)
+
+        for player in state.team_home.players:
+            if player.position == Position.CENTRE_BACK:
+                target_pos = MovementBehavior.calculate_defense_move(player, state)
+            elif player.position == Position.CENTRAL_ATTACK_MID:
+                target_pos = MovementBehavior.calculate_central_move(player, state)
+            elif player.position == Position.STRIKER:
+                target_pos = MovementBehavior.calculate_attack_move(player, state)
+            elif player.position == Position.GOALKEEPER:
+                target_pos = player.positioning
+            player.target_position = target_pos
+
+        for player in state.team_away.players:
+            if player.position == Position.CENTRE_BACK:
+                target_pos = MovementBehavior.calculate_defense_move(player, state)
+            elif player.position == Position.CENTRAL_ATTACK_MID:
+                target_pos = MovementBehavior.calculate_central_move(player, state)
+            elif player.position == Position.STRIKER:
+                target_pos = MovementBehavior.calculate_attack_move(player, state)
+            elif player.position == Position.GOALKEEPER:
+                target_pos = player.positioning
+            player.target_position = target_pos
+        
+    def _update_fisical_movement(self, state: MatchState):
+        """Atualiza as posições físicas dos jogadores"""
+        for player in state.team_home.players + state.team_away.players:
+            self.move_engine.update_player_position(player, TICK_TIME)
+
     def _simulate_shoot(self, player):
         # print(f"{player.name} chutou!")
             
@@ -182,3 +209,28 @@ class ColisionSystem:
                     x2 - dx_norm * move,
                     y2 - dy_norm * move
                 )
+
+class MovementOptimizer:
+    def __init__(self):
+        self.calc_cache = {}
+        self.last_update_cache = 0
+
+    def _calc_movement_optimized(self, player: Player, state: MatchState):
+        """
+        Versão otimizada que usa cache para cálculos pesados.
+        """
+        # Usar cache para cálculos que não mudam a cada tick
+        cache_key = f"{player._id}_{int(state.current_time // 1.0)}"
+
+        if cache_key in self.calc_cache:
+            return self.calc_cache[cache_key]
+        
+        result = self._calc_complet_movement(player, state) # TODO implementar
+
+        self.calc_cache[cache_key] = result
+
+        if state.current_time - self.last_update_cache > 10:
+            self._clear_old_cache(state.current_time)
+            self.last_update_cache = state.current_time
+
+        return result
